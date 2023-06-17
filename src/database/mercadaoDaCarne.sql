@@ -1,0 +1,15 @@
+CREATE TABLE Carnes (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(255) NOT NULL,
+    descricao VARCHAR(1000) NOT NULL,
+    preco DECIMAL(10, 2) NOT NULL,
+    foto BLOB
+
+    FOREIGN KEY (tipo_id) REFERENCES Tipo(id)
+);
+
+CREATE TABLE Tipo (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(255) NOT NULL
+    descricao VARCHAR(1000) NOT NULL
+);
