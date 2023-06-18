@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+.header__container {
+  font-family: "Poppins", sans-serif;
+  height: 190px;
+  width: 100%;
+}
+.header__container .header-infos {
+  background-color: #c00000;
+  height: 34px;
+}
+.header__container .header-content {
+  display: flex;
+  height: 120px;
+  justify-content: space-between;
+}
+.header__container .header-content img {
+  height: 100%;
+}
+.header__container .header-content .content-principal {
+  width: 85%;
+}
+.header__container .header-content .content-principal .principal-search {
+  align-items: center;
+  display: flex;
+  height: 50%;
+}
+.header__container .header-content .content-principal .principal-search .categories-nav p:nth-child(1) {
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: -8px;
+  text-transform: uppercase;
+}
+.header__container .header-content .content-principal .principal-search .categories-nav p:nth-child(2) {
+  margin: 0;
+  font-weight: bold;
+  font-size: 11px;
+  color: #707070;
+}
+.header__container .header-extra {
+  background-color: #e0e0e0;
+  height: 36px;
+}
+
+* {
+  background-color: #f8f9fd;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
