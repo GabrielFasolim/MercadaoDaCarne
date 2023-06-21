@@ -34,6 +34,54 @@
             color: $mediumGray;
           }
         }
+        .categories-search {
+          background-color: $lightGray;
+          border-radius: 20px;
+          padding: 2px 20px;
+          width: 300px;
+          display: flex;
+          justify-content: space-between;
+
+          &:focus {
+            box-shadow: 0 0 0 1px $red;
+          }
+          input {
+            border: none;
+            background-color: transparent;
+            font-size: 14px;
+            &:focus {
+              outline: none;
+            }
+          }
+          i {
+            color: $red;
+            background-color: transparent;
+          }
+        }
+      }
+      .principal-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50%;
+        .principal-categories {
+          align-items: center;
+          display: flex;
+          span {
+            background-color: $darkGray;
+            width: 30px;
+            height: 30px;
+            margin-right: 8px;
+            border-radius: 100%;
+          }
+          p {
+            margin: 0;
+            color: $darkGray;
+            font-weight: bold;
+            font-size: 14px;
+            text-transform: uppercase;
+          }
+        }
       }
     }
   }
