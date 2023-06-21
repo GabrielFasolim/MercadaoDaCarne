@@ -18,6 +18,7 @@
       .principal-search {
         align-items: center;
         display: flex;
+        justify-content: space-between;
         height: 50%;
         .categories-nav {
           p:nth-child(1) {
@@ -39,6 +40,7 @@
           border-radius: 20px;
           padding: 2px 20px;
           width: 300px;
+          height: 30px;
           display: flex;
           justify-content: space-between;
 
@@ -56,6 +58,8 @@
           i {
             color: $red;
             background-color: transparent;
+            font-size: 14px;
+            align-self: center;
           }
         }
       }

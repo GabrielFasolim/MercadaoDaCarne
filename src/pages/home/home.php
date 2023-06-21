@@ -26,8 +26,16 @@
       <div class="content-principal">
         <div class="principal-search">
           <div class="categories-nav"><p>categorias</p><p>Veja nossos Produtos</p></div>
+          <div class="categories-search"><input type="text" placeholder="Procurar..."><i class="bi bi-search"></i></div>
         </div>
-        <div></div>
+        <div class="principal-nav">
+          <div class="principal-categories"><span></span><p>bovinos</p></div>
+          <div class="principal-categories"><span></span><p>aves</p></div>
+          <div class="principal-categories"><span></span><p>suínos</p></div>
+          <div class="principal-categories"><span></span><p>linguiças</p></div>
+          <div class="principal-categories"><span></span><p>kits</p></div>
+          <div class="principal-categories"><span></span><p>tudo</p></div>
+        </div>
       </div>
     </div>
     <div class="header-extra"></div>

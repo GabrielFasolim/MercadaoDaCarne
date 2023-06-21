@@ -23,6 +23,7 @@
 .header__container .header-content .content-principal .principal-search {
   align-items: center;
   display: flex;
+  justify-content: space-between;
   height: 50%;
 }
 .header__container .header-content .content-principal .principal-search .categories-nav p:nth-child(1) {
@@ -37,6 +38,56 @@
   font-weight: bold;
   font-size: 11px;
   color: #707070;
+}
+.header__container .header-content .content-principal .principal-search .categories-search {
+  background-color: #e0e0e0;
+  border-radius: 20px;
+  padding: 2px 20px;
+  width: 300px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.header__container .header-content .content-principal .principal-search .categories-search:focus {
+  box-shadow: 0 0 0 1px #c00000;
+}
+.header__container .header-content .content-principal .principal-search .categories-search input {
+  border: none;
+  background-color: transparent;
+  font-size: 14px;
+}
+.header__container .header-content .content-principal .principal-search .categories-search input:focus {
+  outline: none;
+}
+.header__container .header-content .content-principal .principal-search .categories-search i {
+  color: #c00000;
+  background-color: transparent;
+  font-size: 14px;
+  align-self: center;
+}
+.header__container .header-content .content-principal .principal-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50%;
+}
+.header__container .header-content .content-principal .principal-nav .principal-categories {
+  align-items: center;
+  display: flex;
+}
+.header__container .header-content .content-principal .principal-nav .principal-categories span {
+  background-color: #3d3935;
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+  border-radius: 100%;
+}
+.header__container .header-content .content-principal .principal-nav .principal-categories p {
+  margin: 0;
+  color: #3d3935;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 .header__container .header-extra {
   background-color: #e0e0e0;
