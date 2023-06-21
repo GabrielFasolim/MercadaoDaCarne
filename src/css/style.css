@@ -67,20 +67,21 @@
 }
 .header__container .header-content .content-principal .principal-nav {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   height: 50%;
 }
 .header__container .header-content .content-principal .principal-nav .principal-categories {
   align-items: center;
   display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style: none;
 }
-.header__container .header-content .content-principal .principal-nav .principal-categories span {
-  background-color: #3d3935;
-  width: 30px;
-  height: 30px;
-  margin-right: 8px;
-  border-radius: 100%;
+.header__container .header-content .content-principal .principal-nav .principal-categories li {
+  align-items: center;
+  display: flex;
 }
 .header__container .header-content .content-principal .principal-nav .principal-categories p {
   margin: 0;
@@ -92,6 +93,39 @@
 .header__container .header-extra {
   background-color: #e0e0e0;
   height: 36px;
+}
+
+.icon-menu {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.icon-menu.icon-bovinos {
+  background-image: url(../img/bovino.png);
+}
+
+.icon-menu.icon-aves {
+  background-image: url(../img/aves.png);
+}
+
+.icon-menu.icon-suinos {
+  background-image: url(../img/suinos.png);
+}
+
+.icon-menu.icon-linguicas {
+  background-image: url(../img/linguicas.png);
+}
+
+.icon-menu.icon-kits {
+  background-image: url(../img/kits.png);
+}
+
+.icon-menu.icon-tudo {
+  background-image: url(../img/tudo.png);
 }
 
 * {

@@ -29,12 +29,14 @@
           <div class="categories-search"><input type="text" placeholder="Procurar..."><i class="bi bi-search"></i></div>
         </div>
         <div class="principal-nav">
-          <div class="principal-categories"><span></span><p>bovinos</p></div>
-          <div class="principal-categories"><span></span><p>aves</p></div>
-          <div class="principal-categories"><span></span><p>suínos</p></div>
-          <div class="principal-categories"><span></span><p>linguiças</p></div>
-          <div class="principal-categories"><span></span><p>kits</p></div>
-          <div class="principal-categories"><span></span><p>tudo</p></div>
+          <ul class="principal-categories">
+            <li><i class="icon-menu icon-bovinos"></i><p>bovinos</p></li>
+            <li><i class="icon-menu icon-aves"></i><p>aves</p></li>
+            <li><i class="icon-menu icon-suinos"></i><p>suínos</p></li>
+            <li><i class="icon-menu icon-linguicas"></i><p>linguiças</p></li>
+            <li><i class="icon-menu icon-kits"></i><p>kits</p></li>
+            <li><i class="icon-menu icon-tudo"></i><p>tudo</p></li>
+          </ul>
         </div>
       </div>
     </div>
