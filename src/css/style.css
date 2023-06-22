@@ -1,3 +1,4 @@
+@import "~mdb-ui-kit/css/mdb.min.css";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 .header__container {
@@ -6,8 +7,23 @@
   width: 100%;
 }
 .header__container .header-infos {
+  align-items: center;
+  justify-content: center;
   background-color: #c00000;
   height: 34px;
+  display: flex;
+  color: white;
+  font-weight: bold;
+  gap: 10px;
+}
+.header__container .header-infos i {
+  background-color: transparent;
+  font-size: 0.75rem;
+}
+.header__container .header-infos p {
+  background-color: transparent;
+  margin: 0;
+  font-size: 12px;
 }
 .header__container .header-content {
   display: flex;
@@ -91,8 +107,29 @@
   text-transform: uppercase;
 }
 .header__container .header-extra {
+  align-items: center;
+  justify-content: center;
   background-color: #e0e0e0;
   height: 36px;
+  display: flex;
+  color: #3d3935;
+  gap: 10px;
+  padding: 0 20px;
+}
+.header__container .header-extra i {
+  background-color: transparent;
+  font-size: 1rem;
+}
+.header__container .header-extra p {
+  text-align: center;
+  background-color: transparent;
+  margin: 0;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.responsive-menu {
+  display: none;
 }
 
 .icon-menu {
@@ -128,6 +165,41 @@
   background-image: url(../img/tudo.png);
 }
 
+@media (max-width: 1024px) {
+  .header__container .header-content .content-principal .principal-search .categories-nav p:nth-child(1) {
+    font-size: 16px;
+  }
+  .header__container .header-content .content-principal .principal-search .categories-nav p:nth-child(2) {
+    font-size: 10px;
+  }
+  .header__container .header-content .content-principal .principal-search .categories-search input {
+    font-size: 12px;
+  }
+  .header__container .header-content .content-principal .principal-search .categories-search i {
+    font-size: 12px;
+  }
+  .header__container .header-content .content-principal .principal-nav .principal-categories p {
+    font-size: 12px;
+  }
+  .icon-menu {
+    width: 25px;
+    height: 25px;
+  }
+}
+@media (max-width: 768px) {
+  .header__container .header-content {
+    height: 80px;
+  }
+  .content-principal {
+    display: none;
+  }
+  .responsive-menu {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    color: #c00000;
+  }
+}
 * {
   background-color: #f8f9fd;
   box-sizing: border-box;
