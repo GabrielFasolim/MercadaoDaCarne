@@ -8,7 +8,7 @@
 }
 
 .main-carousel {
-  height: 340px;
+  height: 50%;
   width: 100%;
   background: url(../img/carrossel\ 1.png) center / cover no-repeat;
   border-radius: 10px;
@@ -21,7 +21,7 @@
   .info {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
     i {
       font-size: 40px;
       color: $lightRed;
@@ -29,15 +29,16 @@
     h3 {
       color: $darkGray;
       font-weight: bold;
-      font-size: 18px;
+      font-size: 1rem;
       margin: 0;
+      line-height: 16px;
     }
     p {
       color: $mediumGray;
       font-weight: bold;
-      font-size: 11px;
+      font-size: 0.6rem;
       margin: 0;
-      margin-top: -5px;
+      line-height: 8px;
     }
   }
 }
@@ -46,4 +47,60 @@
   width: 100%;
   height: 1px;
   background-color: $red;
+}
+
+.main-adverts {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 18px;
+  align-items: center;
+  justify-content: center;
+  .advert {
+    width: 49%;
+    height: 100px;
+    background-color: blue;
+    border-radius: 10px;
+    &:nth-child(1) {
+      background: url("../img/anuncio\ 1.png") center / cover no-repeat;
+    }
+    &:nth-child(2) {
+      background: url("../img/anuncio\ 2.png") center / cover no-repeat;
+    }
+    &:nth-child(3) {
+      background: url("../img/anuncio\ 3.png") center / cover no-repeat;
+    }
+    &:nth-child(4) {
+      background: url("../img/anuncio\ 4.png") center / cover no-repeat;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .main-infos {
+    flex-wrap: wrap;
+    gap: 10px;
+    .info {
+      width: 49%;
+      flex-direction: column;
+      i {
+        font-size: 30px;
+        width: 30px;
+        height: 30px;
+      }
+      h3 {
+        font-size: 0.8rem;
+        text-align: center;
+      }
+      p {
+        font-size: 0.5rem;
+        text-align: center;
+      }
+    }
+  }
+  .main-adverts {
+    .advert {
+      width: 48%;
+    }
+  }
 }

@@ -67,6 +67,12 @@
       </div>
       <div class="main-division">
       </div>
+      <div class="main-adverts">
+        <div class="advert"></div>
+        <div class="advert"></div>
+        <div class="advert"></div>
+        <div class="advert"></div>
+      </div>
     </div>
   </main>
   
