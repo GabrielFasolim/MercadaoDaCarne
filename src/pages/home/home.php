@@ -32,6 +32,43 @@
 
 <body>
   <?php require_once '../../components/header.php'; ?>
+  <main class="container-main">
+    <div class="main-head container-md">
+      <div class="main-carousel"></div>
+      <div class="main-infos">
+        <div class="info">
+          <i class="fas fa-truck-fast"></i>
+          <div class="info-text">
+            <h3>ENTREGAS AGENDADAS</h3>
+            <p>Escolha o horário e faça seu pedido</p>
+          </div>
+        </div>
+        <div class="info">
+          <i class="fab fa-whatsapp-square"></i>
+          <div class="info-text">
+            <h3>WHATSAPP</h3>
+            <p>Clique e compre pelo whatsapp</p>
+          </div>
+        </div>
+        <div class="info">
+          <i class="fas fa-headset"></i>
+          <div class="info-text">
+            <h3>SUPORTE AO CLIENTE</h3>
+            <p>Diretamente pelo whatsapp</p>
+          </div>
+        </div>
+        <div class="info">
+          <i class="fas fa-arrow-down-a-z"></i>
+          <div class="info-text">
+            <h3>DIVERSIDADE</h3>
+            <p>Diversos produtos à sua disposição</p>
+          </div>
+        </div>
+      </div>
+      <div class="main-division">
+      </div>
+    </div>
+  </main>
   
   <!-- MDB -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"></script>
