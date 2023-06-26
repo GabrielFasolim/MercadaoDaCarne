@@ -187,6 +187,9 @@
   }
 }
 @media (max-width: 768px) {
+  .header__container {
+    height: 150px;
+  }
   .header__container .header-content {
     height: 80px;
   }
@@ -218,7 +221,7 @@
 }
 
 .main-carousel {
-  height: 50%;
+  height: 1296px;
   width: 100%;
   background: url(../img/carrossel\ 1.png) center/cover no-repeat;
   border-radius: 10px;
@@ -274,19 +277,26 @@
   border-radius: 10px;
 }
 .main-adverts .advert:nth-child(1) {
-  background: url("../img/anuncio 1.png") center/cover no-repeat;
+  background: url("../img/anuncio 1.png") center/contain no-repeat;
 }
 .main-adverts .advert:nth-child(2) {
-  background: url("../img/anuncio 2.png") center/cover no-repeat;
+  background: url("../img/anuncio 2.png") center/contain no-repeat;
 }
 .main-adverts .advert:nth-child(3) {
-  background: url("../img/anuncio 3.png") center/cover no-repeat;
+  background: url("../img/anuncio 3.png") center/contain no-repeat;
 }
 .main-adverts .advert:nth-child(4) {
-  background: url("../img/anuncio 4.png") center/cover no-repeat;
+  background: url("../img/anuncio 4.png") center/contain no-repeat;
 }
 
 @media (max-width: 992px) {
+  .main-head {
+    height: auto;
+  }
+  .main-carousel {
+    height: 200px;
+    background-size: contain;
+  }
   .main-infos {
     flex-wrap: wrap;
     gap: 10px;
@@ -308,8 +318,12 @@
     font-size: 0.5rem;
     text-align: center;
   }
+  .main-adverts {
+    flex-direction: column;
+    gap: 2px;
+  }
   .main-adverts .advert {
-    width: 48%;
+    width: 100%;
   }
 }
 
