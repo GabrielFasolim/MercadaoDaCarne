@@ -216,6 +216,9 @@
 }
 
 @media (max-width: 768px) {
+  .header__container {
+    height: 150px;
+  }
   .header__container .header-content {
     height: 80px;
   }

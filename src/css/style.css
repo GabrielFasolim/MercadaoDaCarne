@@ -187,6 +187,9 @@
   }
 }
 @media (max-width: 768px) {
+  .header__container {
+    height: 150px;
+  }
   .header__container .header-content {
     height: 80px;
   }
@@ -206,6 +209,141 @@
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
+}
+
+.main-head {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  padding: 20px 0;
+}
+
+.main-carousel {
+  min-height: 384px;
+  width: 100%;
+  background: url(../img/carrossel\ 1.png) center/contain no-repeat;
+  border-radius: 10px;
+}
+
+.main-infos {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.main-infos .info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.main-infos .info i {
+  font-size: 40px;
+  color: #de3b3c;
+}
+.main-infos .info h3 {
+  color: #3d3935;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 0;
+  line-height: 16px;
+}
+.main-infos .info p {
+  color: #707070;
+  font-weight: bold;
+  font-size: 0.6rem;
+  margin: 0;
+  line-height: 8px;
+}
+
+.main-division {
+  width: 100%;
+  min-height: 1px;
+  background-color: #c00000;
+}
+
+.main-adverts {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 18px;
+  align-items: center;
+  justify-content: center;
+}
+.main-adverts .advert {
+  width: 49%;
+  min-height: 100px;
+  background-color: blue;
+  border-radius: 10px;
+}
+.main-adverts .advert:nth-child(1) {
+  background: url("../img/anuncio 1.png") center/contain no-repeat;
+}
+.main-adverts .advert:nth-child(2) {
+  background: url("../img/anuncio 2.png") center/contain no-repeat;
+}
+.main-adverts .advert:nth-child(3) {
+  background: url("../img/anuncio 3.png") center/contain no-repeat;
+}
+.main-adverts .advert:nth-child(4) {
+  background: url("../img/anuncio 4.png") center/contain no-repeat;
+}
+
+@media (max-width: 992px) {
+  .main-head {
+    height: auto;
+  }
+  .main-carousel {
+    min-height: 200px;
+    background-size: contain;
+  }
+  .main-infos {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .main-infos .info {
+    width: 48%;
+    flex-direction: column;
+  }
+  .main-infos .info i {
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+  }
+  .main-infos .info h3 {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .main-infos .info p {
+    font-size: 0.5rem;
+    text-align: center;
+  }
+  .main-adverts {
+    flex-direction: column;
+    gap: 2px;
+  }
+  .main-adverts .advert {
+    width: 100%;
+  }
+}
+@media (max-width: 425px) {
+  .main-carousel {
+    background: url(../img/carrosel\ 1\ mobile.png) center/contain no-repeat;
+  }
+  .main-infos .info i {
+    font-size: 25px;
+    width: 25px;
+    height: 25px;
+  }
+  .main-infos .info h3 {
+    font-size: 0.7rem;
+  }
+  .main-infos .info p {
+    font-size: 0.4 0.5rem;
+  }
+  .main-adverts .advert {
+    height: 60px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
