@@ -47,10 +47,10 @@
                 <h4 id="preco">R$</h4>
                 <button class="button-24" role="button">COMPRAR PELO WHATSAPP</button>
                 <p><i class="fab fa-pix"></i> Pagamento por PIX</p>
-                <h7><i class="fas fa-van-shuttle"></i> Entrega Agendada</h7>
+                <h7><i class="fas fa-truck-fast"></i>Entrega Agendada</h7>
                 <div class="description">
                     <h5>Descrição</h5>
-                    <p>LOREN LOREN </p>
+                    <p>loren loren loren </p>
                 </div>
             </div>
         </div>

@@ -359,7 +359,18 @@
 
 .box .imgs .imgDefault .imgOther {
   border-radius: 8%;
-  padding: 0.5rem;
+  margin: 0.5rem;
+}
+.box .imgs .imgDefault .imgOther:hover {
+  box-shadow: 0.5px 0.5px 0.5px 1px black;
+}
+
+#imgFirst {
+  border-radius: 8%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-bottom: 1rem;
 }
 
 .box .info .button-24 {
@@ -407,14 +418,6 @@
 
 #titulo {
   font-weight: bold;
-}
-
-#imgFirst {
-  border-radius: 8%;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  margin-bottom: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
