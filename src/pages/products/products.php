@@ -46,7 +46,7 @@
                 <p>PREÇO POR KG</p>
                 <h4 id="preco">R$</h4>
                 <button class="button-24" role="button">COMPRAR PELO WHATSAPP</button>
-                <p><i class="fab fa-pix"></i> Pagamento por PIX</p>
+                <p class="pix"><i class="fab fa-pix"></i> Pagamento por <span>PIX</span></p>
                 <h7><i class="fas fa-truck-fast"></i>Entrega Agendada</h7>
                 <div class="description">
                     <h5>Descrição</h5>

@@ -407,8 +407,12 @@
   opacity: 0.5;
 }
 
-.box .info .fab fa-pix {
+.fa-pix {
   color: #00BDAE;
+}
+
+.box .info .pix .span {
+  font-weight: bold;
 }
 
 #preco {
