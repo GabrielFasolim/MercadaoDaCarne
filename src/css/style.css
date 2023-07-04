@@ -411,6 +411,13 @@
   color: #00BDAE;
 }
 
+.fa-truck-fast {
+  color: red;
+  height: 25px;
+  font-size: 30px;
+  margin-right: 5px;
+}
+
 .box .info .pix .span {
   font-weight: bold;
 }
@@ -422,6 +429,34 @@
 
 #titulo {
   font-weight: bold;
+}
+
+.boxLogin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.boxLogin .login {
+  width: 40%;
+}
+
+.boxContorno {
+  background-color: blue;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logoLogin {
+  height: 200px;
+}
+
+.btn-primary {
+  background-color: #c00000;
 }
 
 /*# sourceMappingURL=style.css.map */

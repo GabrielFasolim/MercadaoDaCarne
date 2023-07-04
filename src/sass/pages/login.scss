@@ -1,0 +1,27 @@
+.boxLogin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+
+}
+
+.boxLogin .login{
+   width: 40%;
+}
+
+.boxContorno{
+    background-color: blue;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.logoLogin{
+    height: 200px;
+}
+
+.btn-primary{
+    background-color: $red;
+}
