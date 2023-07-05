@@ -431,6 +431,40 @@
   font-weight: bold;
 }
 
+@media (max-width: 954px) {
+  .box .imgs .imgDefault .imgOther {
+    height: 150px;
+  }
+}
+@media (max-width: 854px) {
+  .box .imgs .imgDefault .imgOther {
+    height: 130px;
+  }
+}
+@media (max-width: 793px) {
+  .box .imgs .imgDefault .imgOther {
+    height: 110px;
+  }
+}
+@media (max-width: 734px) {
+  .box .imgs .imgDefault .imgOther {
+    height: 100px;
+  }
+  .fa-truck-fast {
+    height: 20px;
+  }
+}
+@media (max-width: 425px) {
+  .box .imgs .imgDefault .imgOther {
+    height: 100px;
+  }
+  .fa-truck-fast {
+    height: 20px;
+  }
+  #imgFirst {
+    height: 150px;
+  }
+}
 .boxLogin {
   display: flex;
   align-items: center;
@@ -440,10 +474,6 @@
 
 .boxLogin .login {
   width: 40%;
-}
-
-.boxContorno {
-  background-color: blue;
 }
 
 .logo {
