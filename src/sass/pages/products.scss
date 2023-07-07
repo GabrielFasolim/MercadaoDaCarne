@@ -1,6 +1,7 @@
 .products {
   height: auto;
   width: 100%;
+  margin-bottom: 30px;
 }
 
 .product-title {
@@ -79,5 +80,17 @@
     font-weight: bold;
     border-radius: 30px;
     margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .products-content .product {
+    width: 220px;
+  }
+
+  .btn-vermais {
+    a {
+      width: 60%;
+    }
   }
 }
