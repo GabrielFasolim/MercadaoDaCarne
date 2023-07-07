@@ -73,6 +73,39 @@
         <div class="advert"></div>
         <div class="advert"></div>
       </div>
+      <div class="main-division">
+      </div>
+    </div>
+    <div class="products container-md">
+      <p class="product-title">NOSSAS CARNES <span>BOVINAS</span></p>
+      <div class="products-content">
+        <div class="product">
+          <img src="../../img/sobrecoxa-frango.png" alt="" class="img-fluid">
+          <p class="product-name">SOBRECOXA DE FRANGO</p>
+          <p class="product-price">R$00.00</p>
+          <a href="#" class="btn">COMPRAR</a>
+        </div>
+        <div class="product">
+          <img src="../../img/sobrecoxa-frango.png" alt="" class="img-fluid">
+          <p class="product-name">SOBRECOXA DE FRANGO</p>
+          <p class="product-price">R$00.00</p>
+          <a href="#" class="btn">COMPRAR</a>
+        </div>
+        <div class="product">
+          <img src="../../img/sobrecoxa-frango.png" alt="" class="img-fluid">
+          <p class="product-name">SOBRECOXA DE FRANGO</p>
+          <p class="product-price">R$00.00</p>
+          <a href="#" class="btn">COMPRAR</a>
+        </div>
+        <div class="product">
+          <img src="../../img/sobrecoxa-frango.png" alt="" class="img-fluid">
+          <p class="product-name">SOBRECOXA DE FRANGO</p>
+          <p class="product-price">R$00.00</p>
+          <a href="#" class="btn">COMPRAR</a>
+        </div>
+      </div>
+      <div class="btn-vermais"><a href="#" class="btn">Ver mais</a></div>
+      <div class="main-division">
     </div>
   </main>
   
