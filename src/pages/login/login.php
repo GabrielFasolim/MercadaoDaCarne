@@ -30,7 +30,7 @@
     <title>Mercadão da carne</title>
 </head>
 <body>
-    <?php require_once '../../components/header.php'; ?>
+    
     <div class="boxContorno">
         <div class="logo">
             <img class="logoLogin" src="../../img/logo.png" alt="Logo mercadão da carne">
