@@ -25,13 +25,13 @@
   flex-wrap: wrap;
 
   .product {
-    height: 100%;
+    height: auto;
     width: 20%;
-    border-radius: 10px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
 
     img {
       width: 100%;
@@ -41,30 +41,79 @@
 
     a {
       width: 100%;
-      text-align: center;
-      background-color: $red;
-      color: white;
-      font-weight: bold;
+      height: 60px;
+      color: $red;
+      font-weight: 500;
       border-radius: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+
+      i {
+        background-color: transparent;
+      }
+
+      &:hover {
+        background-color: $red;
+        color: white;
+      }
+    }
+
+    hr {
+      margin: 0;
     }
   }
 }
 
+.category-and-name {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 0 10px;
+  height: 100px;
+}
+
+.product-category {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: $mediumGray;
+  background-color: white;
+  margin: 10px 0 0 0;
+  line-height: 0.8rem;
+}
+
 .product-name {
-  width: 80%;
   font-size: 1rem;
   font-weight: bold;
   color: $darkGray;
   margin: 10px 0 0 0;
   background-color: white;
   line-height: 1rem;
-  text-align: center;
+  text-transform: uppercase;
+}
+
+.price-and-kg {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 0 10px;
 }
 
 .product-price {
-  font-size: 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: $lightRed;
+  background-color: white;
+  text-align: center;
+}
+
+.product-kg {
+  font-size: 1rem;
   font-weight: bold;
-  color: $red;
+  color: $darkGray;
   background-color: white;
 }
 
@@ -75,8 +124,7 @@
   a {
     width: 90%;
     background-color: transparent;
-    color: black;
-    border: solid 2px $red;
+    border: solid 2px $mediumGray;
     font-weight: bold;
     border-radius: 30px;
     margin-bottom: 30px;

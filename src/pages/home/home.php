@@ -81,30 +81,58 @@
       <div class="products-content">
         <div class="product">
           <img src="../../img/sobrecoxa-frango.png" alt="" class="img-fluid">
-          <p class="product-name">SOBRECOXA DE FRANGO</p>
-          <p class="product-price">R$00.00</p>
-          <a href="#" class="btn">COMPRAR</a>
+          <div class="category-and-name">
+            <p class="product-category">Categoria</p>
+            <p class="product-name">Título da carne lorem lorem lorem</p>
+          </div>
+          <div class="price-and-kg">
+            <p class="product-price">R$00.00</p>
+            <p class="product-kg">KG</p>
+          </div>
+          <hr>
+          <a href="#" class="btn"><i class="fas fa-basket-shopping"></i> Comprar</a>
         </div>
         <div class="product">
           <img src="../../img/sobrecoxa-frango.png" alt="" class="img-fluid">
-          <p class="product-name">SOBRECOXA DE FRANGO</p>
-          <p class="product-price">R$00.00</p>
-          <a href="#" class="btn">COMPRAR</a>
+          <div class="category-and-name">
+            <p class="product-category">Categoria</p>
+            <p class="product-name">Título da carne lorem lorem lorem</p>
+          </div>
+          <div class="price-and-kg">
+            <p class="product-price">R$00.00</p>
+            <p class="product-kg">KG</p>
+          </div>
+          <hr>
+          <a href="#" class="btn"><i class="fas fa-basket-shopping"></i> Comprar</a>
         </div>
         <div class="product">
           <img src="../../img/sobrecoxa-frango.png" alt="" class="img-fluid">
-          <p class="product-name">SOBRECOXA DE FRANGO</p>
-          <p class="product-price">R$00.00</p>
-          <a href="#" class="btn">COMPRAR</a>
+          <div class="category-and-name">
+            <p class="product-category">Categoria</p>
+            <p class="product-name">Título da carne lorem lorem lorem</p>
+          </div>
+          <div class="price-and-kg">
+            <p class="product-price">R$00.00</p>
+            <p class="product-kg">KG</p>
+          </div>
+          <hr>
+          <a href="#" class="btn"><i class="fas fa-basket-shopping"></i> Comprar</a>
         </div>
         <div class="product">
           <img src="../../img/sobrecoxa-frango.png" alt="" class="img-fluid">
-          <p class="product-name">SOBRECOXA DE FRANGO</p>
-          <p class="product-price">R$00.00</p>
-          <a href="#" class="btn">COMPRAR</a>
+          <div class="category-and-name">
+            <p class="product-category">Categoria</p>
+            <p class="product-name">Título da carne lorem lorem lorem</p>
+          </div>
+          <div class="price-and-kg">
+            <p class="product-price">R$00.00</p>
+            <p class="product-kg">KG</p>
+          </div>
+          <hr>
+          <a href="#" class="btn"><i class="fas fa-basket-shopping"></i> Comprar</a>
         </div>
       </div>
-      <div class="btn-vermais"><a href="#" class="btn">Ver mais</a></div>
+      <div class="btn-vermais"><a href="#" class="btn"><i class="fas fa-angles-right"></i> Ver mais</a></div>
       <div class="main-division">
     </div>
   </main>

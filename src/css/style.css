@@ -371,13 +371,13 @@
   flex-wrap: wrap;
 }
 .products-content .product {
-  height: 100%;
+  height: auto;
   width: 20%;
-  border-radius: 10px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
 }
 .products-content .product img {
   width: 100%;
@@ -386,28 +386,74 @@
 }
 .products-content .product a {
   width: 100%;
-  text-align: center;
+  height: 60px;
+  color: #c00000;
+  font-weight: 500;
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.products-content .product a i {
+  background-color: transparent;
+}
+.products-content .product a:hover {
   background-color: #c00000;
   color: white;
-  font-weight: bold;
-  border-radius: 0;
+}
+.products-content .product hr {
+  margin: 0;
+}
+
+.category-and-name {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 0 10px;
+  height: 100px;
+}
+
+.product-category {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #707070;
+  background-color: white;
+  margin: 10px 0 0 0;
+  line-height: 0.8rem;
 }
 
 .product-name {
-  width: 80%;
   font-size: 1rem;
   font-weight: bold;
   color: #3d3935;
   margin: 10px 0 0 0;
   background-color: white;
   line-height: 1rem;
-  text-align: center;
+  text-transform: uppercase;
+}
+
+.price-and-kg {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 0 10px;
 }
 
 .product-price {
-  font-size: 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #de3b3c;
+  background-color: white;
+  text-align: center;
+}
+
+.product-kg {
+  font-size: 1rem;
   font-weight: bold;
-  color: #c00000;
+  color: #3d3935;
   background-color: white;
 }
 
@@ -418,8 +464,7 @@
 .btn-vermais a {
   width: 90%;
   background-color: transparent;
-  color: black;
-  border: solid 2px #c00000;
+  border: solid 2px #707070;
   font-weight: bold;
   border-radius: 30px;
   margin-bottom: 30px;
