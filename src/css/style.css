@@ -376,7 +376,7 @@
   display: flex;
   flex-direction: column;
   background-color: white;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
   border-radius: 10px;
 }
 .products-content .product img {
@@ -477,6 +477,19 @@
   .btn-vermais a {
     width: 60%;
   }
+}
+.container-table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.tableContent {
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 80%;
 }
 
 /*# sourceMappingURL=style.css.map */
