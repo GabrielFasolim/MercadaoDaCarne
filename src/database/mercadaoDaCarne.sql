@@ -13,3 +13,16 @@ CREATE TABLE Carnes (
     foto BLOB,
     FOREIGN KEY (tipo_id) REFERENCES Tipo(id)
 );
+
+CREATE TABLE Usuario (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    email VARCHAR(255) NOT NULL,
+    senha VARCHAR(255) NOT NULL
+);
+
+
+
+
+
+-- user: felipe@admin.com
+-- pass: nuM&bI*410&5C1Fi3%s0u7E
