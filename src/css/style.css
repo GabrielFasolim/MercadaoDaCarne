@@ -524,9 +524,10 @@
   height: 200px;
 }
 
-.btn-primary {
+.btn btn-primary btn-block {
   background-color: #c00000;
-=======
+}
+
 .products {
   height: auto;
   width: 100%;
