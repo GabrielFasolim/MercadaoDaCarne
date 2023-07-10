@@ -1,0 +1,145 @@
+.products {
+  height: auto;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.product-title {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: $darkGray;
+
+  span {
+    color: $lightRed;
+  }
+}
+
+.products-content {
+  height: auto;
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  .product {
+    height: auto;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+      rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    border-radius: 10px;
+
+    img {
+      width: 100%;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+
+    a {
+      width: 100%;
+      height: 60px;
+      color: $red;
+      font-weight: 500;
+      border-radius: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+
+      i {
+        background-color: transparent;
+      }
+
+      &:hover {
+        background-color: $red;
+        color: white;
+      }
+    }
+
+    hr {
+      margin: 0;
+    }
+  }
+}
+
+.category-and-name {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 0 10px;
+  height: 100px;
+}
+
+.product-category {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: $mediumGray;
+  background-color: white;
+  margin: 10px 0 0 0;
+  line-height: 0.8rem;
+}
+
+.product-name {
+  font-size: 1rem;
+  font-weight: bold;
+  color: $darkGray;
+  margin: 10px 0 0 0;
+  background-color: white;
+  line-height: 1rem;
+  text-transform: uppercase;
+}
+
+.price-and-kg {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 0 10px;
+}
+
+.product-price {
+  font-size: 1rem;
+  font-weight: 600;
+  color: $lightRed;
+  background-color: white;
+  text-align: center;
+}
+
+.product-kg {
+  font-size: 1rem;
+  font-weight: bold;
+  color: $darkGray;
+  background-color: white;
+}
+
+.btn-vermais {
+  margin-top: 20px;
+  text-align: center;
+
+  a {
+    width: 90%;
+    background-color: transparent;
+    border: solid 2px $mediumGray;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .products-content .product {
+    width: 220px;
+  }
+
+  .btn-vermais {
+    a {
+      width: 60%;
+    }
+  }
+}
