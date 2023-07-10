@@ -478,5 +478,18 @@
     width: 60%;
   }
 }
+.container-table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.tableContent {
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 80%;
+}
 
 /*# sourceMappingURL=style.css.map */
