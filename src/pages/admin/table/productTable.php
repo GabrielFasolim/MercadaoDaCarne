@@ -37,7 +37,7 @@
       <div class="tableContent">
         <div class="btns mb-3">
           <a href="./categoryTable.php" class="btn btn-outline-danger"><i class="fas fa-eye"></i> Ver categorias</a>
-          <a href="" class="btn btn-danger"><i class="fas fa-square-plus"></i> Adicionar item</a>
+          <a href="./addProduct.php" class="btn btn-danger"><i class="fas fa-square-plus"></i> Adicionar item</a>
         </div>
         <div class="table-responsive">
           <table class="table table-striped text-center table-panel">
