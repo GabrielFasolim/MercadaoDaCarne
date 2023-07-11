@@ -6,8 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- Css Links -->
-        <link rel="stylesheet" href="../../css/reset.css" />
-        <link rel="stylesheet" href="../../css/style.css" />
+        <link rel="stylesheet" href="../../../css/reset.css" />
+        <link rel="stylesheet" href="../../../css/style.css" />
 
         <!-- Font Awesome -->
         <link
@@ -28,18 +28,18 @@
         />
         <title>Mercadão da carne</title>
     </head>
-    <body>
+    <body class="body-login">
         <div class="boxLogin">
             <form id="form" method="POST">
 
                 <div class="logo">
-                    <img class="logoLogin" src="../../img/logo.png" alt="Logo mercadão da carne">
+                    <img class="logoLogin" src="../../../img/logo.png" alt="Logo mercadão da carne">
                 </div>
                 
                     <form class="login">
                     <!-- Email input -->
                     <div class="form-outline mb-4">
-                        <input type="email" name="email" id="email" class="form-control" />
+                        <input type="text" name="email" id="email" class="form-control" />
                         <label class="form-label" for="form1Example1">Login</label>
                     </div>
 

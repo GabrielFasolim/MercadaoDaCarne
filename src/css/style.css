@@ -204,7 +204,6 @@
   }
 }
 * {
-  background-color: #f8f9fd;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   margin: 0;
@@ -508,11 +507,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 5rem;
+  height: 100vh;
 }
 
 .boxLogin .login {
-  width: 40%;
+  width: 60%;
 }
 
 .logo {
