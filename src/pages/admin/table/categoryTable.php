@@ -36,8 +36,8 @@
     <main class="container-table">
       <div class="tableContent">
         <div class="btns mb-3">
-          <a href="./categoryTable.php" class="btn btn-outline-danger"><i class="fas fa-eye"></i> Ver categorias</a>
-          <a href="" class="btn btn-danger"><i class="fas fa-square-plus"></i> Adicionar item</a>
+          <a href="./productTable.php" class="btn btn-outline-danger"><i class="fas fa-eye"></i> Ver carnes</a>
+          <a href="" class="btn btn-danger"><i class="fas fa-square-plus"></i> Adicionar categoria</a>
         </div>
         <div class="table-responsive">
           <table class="table table-striped text-center table-panel">
@@ -46,11 +46,9 @@
                 <th scope="col">ID</th>
                 <th scope="col">Nome</th>
                 <th scope="col">Descrição</th>
-                <th scope="col">Categoria</th>
-                <th scope="col">Preço</th>
                 <th scope="col">Ações</th>
               </tr>
-              <?php include "./listProducts.php" ?>
+              <?php include "./listCategory.php" ?>
             </thead>
             <tbody>
           
