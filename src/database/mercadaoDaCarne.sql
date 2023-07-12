@@ -20,9 +20,5 @@ CREATE TABLE Usuario (
     senha VARCHAR(255) NOT NULL
 );
 
-
-
-
-
 -- user: felipe@admin.com
 -- pass: nuM&bI*410&5C1Fi3%s0u7E
