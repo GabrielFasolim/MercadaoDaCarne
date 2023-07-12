@@ -38,7 +38,7 @@
 
         <div class="btns mb-3">
           <a href="./productTable.php" class="btn btn-outline-danger"><i class="fas fa-eye"></i> Ver carnes</a>
-          <a href="./addProduct.php" class="btn btn-danger"><i class="fas fa-square-plus"></i> Adicionar categoria</a>
+          <a href="./addCategory.php" class="btn btn-danger"><i class="fas fa-square-plus"></i> Adicionar categoria</a>
         </div>
 
         <form id="form" class="col-md-12 form-product" enctype="multipart/form-data">

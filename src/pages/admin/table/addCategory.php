@@ -34,33 +34,40 @@
       require_once "../../../components/adminAuthorization.php"
     ?>
     <main class="container-table">
-      <div class="tableContent">
+      <div class="tableContent tableAdd">
+
         <div class="btns mb-3">
           <a href="./productTable.php" class="btn btn-outline-danger"><i class="fas fa-eye"></i> Ver carnes</a>
           <a href="./addCategory.php" class="btn btn-danger"><i class="fas fa-square-plus"></i> Adicionar categoria</a>
         </div>
-        <div class="table-responsive">
-          <table class="table table-striped text-center table-panel">
-            <thead class="table-light">
-              <tr>
-                <th scope="col">ID</th>
-                <th scope="col">Nome</th>
-                <th scope="col">Descrição</th>
-                <th scope="col">Ações</th>
-              </tr>
-              <?php include "./listCategory.php" ?>
-            </thead>
-            <tbody>
-          
-            </tbody>
-          </table>
-        </div>
+
+        <form id="form" class="col-md-12 form-product">
+          <div class="form-outline mb-4">
+            <input type="text" id="nome" class="form-control" name="nome" required/>
+            <label class="form-label" for="nome">Nome da categoria</label>
+          </div>
+
+          <div class="form-outline mb-4">
+            <textarea class="form-control" id="descricao" rows="6" name="descricao" required></textarea>
+            <label class="form-label" for="descricao">Descrição</label>
+          </div>
+
+          <button type="submit" class="btn btn-danger btn-block mb-4">Criar</button>
+        </form>
       </div>
     </main>
     
     <!-- MDB -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <!-- Jquery -->
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.js"></script>
+    <script src="./addCategory.js"></script>
+
+    <!-- Script SweetAlert -->
+    <script src="sweetalert2.all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     
   </body>
 </html>
