@@ -15,7 +15,7 @@
                   <a>
                     <i class='fas fa-trash'></i>
                   </a>
-                  <a>
+                  <a href=''>
                     <i class='fas fa-pen'></i>
                   </a>
                 </td>";
