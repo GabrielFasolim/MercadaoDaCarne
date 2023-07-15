@@ -8,10 +8,11 @@
   if ($result = mysqli_query($conn, $sql)) {
     if (mysqli_num_rows($result) > 0) {
       while ($row = mysqli_fetch_assoc($result)){
+        $id = $row['id'];
         $nome = $row['nome'];
-        $descricao = $row['sobrenome'];
-        $tipo_id = $row['cnh'];
-        $preco = $row['cep'];
+        $descricao = $row['descricao'];
+        $preco = $row['preco'];
+        $tipo_nome = $row['tipo_nome'];
         
       }
     }
