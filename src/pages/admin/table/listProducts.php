@@ -18,7 +18,7 @@
                   <a>
                     <i class='fas fa-trash'></i>
                   </a>
-                  <a>
+                  <a href='./updateProducts.php'>
                     <i class='fas fa-pen'></i>
                   </a>
                 </td>";

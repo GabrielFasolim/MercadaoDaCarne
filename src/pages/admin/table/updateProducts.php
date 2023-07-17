@@ -31,9 +31,8 @@
   </head>
   <body>
     <?php
-      require_once "../../../components/adminAuthorization.php"
-      require_once "./loadProducts.php"
-
+      require_once "../../../components/adminAuthorization.php";
+      require_once "./loadProductsExe.php";
     ?>
     <main class="container-table">
       <div class="tableContent tableAdd">
@@ -67,7 +66,7 @@
           <label class="form-label" for="foto">Foto do produto</label>
           <input type="file" class="form-control mb-4" id="foto" name="foto" required/>
 
-          <button class="btn btn-danger btn-block mb-4">Editar</button>
+          <button id='update' type='submit' name='update' class="btn btn-danger btn-block mb-4">Editar</button>
         </form>
       </div>
     </main>
