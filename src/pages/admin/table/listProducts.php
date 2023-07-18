@@ -18,7 +18,7 @@
                   <button id='deleteForm'>
                     <i class='fas fa-trash'></i>
                   </button>
-                  <a href='./updateProducts.php'>
+                  <a href='./updateProducts.php?id=$row[id]'>
                     <i class='fas fa-pen'></i>
                   </a>
                 </td>";

@@ -42,7 +42,7 @@
           <a href="./addCategory.php" class="btn btn-danger"><i class="fas fa-square-plus"></i> Adicionar categoria</a>
         </div>
 
-        <form id="form" class="col-md-12 form-product" enctype="multipart/form-data">
+        <form action='updateProductsExe.php' id="formEdit" class="col-md-12 form-product" enctype="multipart/form-data">
           <div class="form-outline mb-4">
             <input type="text" id="nome" class="form-control" name="nome" value="<?php echo ($nome);?>" required/>
             <label class="form-label" for="nome">Nome do produto</label>
@@ -66,6 +66,7 @@
           <label class="form-label" for="foto">Foto do produto</label>
           <input type="file" class="form-control mb-4" id="foto" name="foto" required/>
 
+          <input type="hidden" name='id' value="<?php echo ($id);?>">
           <button id='update' type='submit' name='update' class="btn btn-danger btn-block mb-4">Editar</button>
         </form>
       </div>
@@ -77,7 +78,7 @@
 
     <!-- Jquery -->
     <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.js"></script>
-    <script src="./addProduct.js"></script>
+    <!-- <script src="./updateProducts.js"></script> -->
 
     <!-- Script SweetAlert -->
     <script src="sweetalert2.all.min.js"></script>

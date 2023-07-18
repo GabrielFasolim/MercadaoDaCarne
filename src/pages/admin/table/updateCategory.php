@@ -32,7 +32,6 @@
   <body>
     <?php
       require_once "../../../components/adminAuthorization.php";
-      require_once "./loadCategory.php";
     ?>
     <main class="container-table">
       <div class="tableContent tableAdd">
@@ -44,7 +43,7 @@
 
         <form id="form" class="col-md-12 form-product">
           <div class="form-outline mb-4">
-            <input value="<?php echo ($tipoNome);?>" type="text" id="nome" class="form-control" name="nome" required/>
+            <input type="text" id="nome" class="form-control" name="nome" required/>
             <label class="form-label" for="nome">Nome da categoria</label>
           </div>
 
