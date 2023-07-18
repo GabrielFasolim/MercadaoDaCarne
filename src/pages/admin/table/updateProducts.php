@@ -66,8 +66,7 @@
           <label class="form-label" for="foto">Foto do produto</label>
           <input type="file" class="form-control mb-4" id="foto" name="foto" required/>
 
-          <input type="hidden" name='id' value="<?php echo ($id);?>">
-          <button id='update' type='submit' name='update' class="btn btn-danger btn-block mb-4">Editar</button>
+          <button  value="<?php echo ($id);?>" id='update' type='submit' name='update' class="btn btn-danger btn-block mb-4">Editar</button>
         </form>
       </div>
     </main>

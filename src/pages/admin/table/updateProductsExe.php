@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $id = $_POST['id']; 
     $nome = $_POST['nome'];
     $descricao = $_POST['descricao'];
-    $categoria = $_POST['categoria'];
+    $categoria = $_POST['tipo_id'];
     $preco = $_POST['preco'];
 
     if (isset($_FILES["foto"]) && $_FILES["foto"]["error"] == 0) {
@@ -52,6 +52,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
     header('Location: listProducts.php');
     exit;
-}
-mysqli_close($conn);
+  }
+  mysqli_close($conn);
 ?>
