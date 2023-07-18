@@ -15,9 +15,9 @@
             echo "<td>$row[tipo_nome]</td>";
             echo "<td>$row[preco]</td>";
             echo "<td>
-                  <a>
+                  <button id='deleteForm'>
                     <i class='fas fa-trash'></i>
-                  </a>
+                  </button>
                   <a href='./updateProducts.php'>
                     <i class='fas fa-pen'></i>
                   </a>
@@ -28,6 +28,8 @@
 } 
 
 ?>
+
+<script src='./deleteProducts.js'></script>
 
 <script>
     var descricaoElements = document.getElementsByClassName("descricao");
