@@ -4,10 +4,8 @@ require_once "../../../database/connection.php";
 header('Content-Type: application/json');
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $id = $_POST['id']; 
     $nome = $_POST['nome'];
     $descricao = $_POST['descricao'];
-    $categoria = $_POST['tipo_id'];
     $preco = $_POST['preco'];
 
     if (isset($_FILES["foto"]) && $_FILES["foto"]["error"] == 0) {
@@ -17,24 +15,23 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $sql = "UPDATE Carnes
                 SET nome = '$nome',
                     descricao = '$descricao',
-                    tipo_id = '$categoria',
                     preco = '$preco',
-                    foto = '$foto_base64'
-                WHERE id = $id";
+                    foto = '$foto_base64'";
 
         if ($result = mysqli_query($conn, $sql)) {       
-            $status = 'success';
-            $message = 'Requisição bem sucedida';
-            $statusCode = 200;
+          $status = 'success';
+          $message = 'Requisição bem sucedida';
+          $statusCode = 200;
 
-            $response = array(
-                'status' => $status,
-                'message' => $message,
-            );
+          $response = array(
+              'status' => $status,
+              'message' => $message,
+          );
 
-            echo json_encode($response);
-            mysqli_close($conn);
-            exit;
+          echo json_encode($response);
+          mysqli_close($conn);
+          header('Location: ./listProducts.php');
+          exit;
         } else {
             $status = 'error';
             $message = 'Erro ao realizar a requisição';
@@ -50,7 +47,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             exit;
         }
     }
-    header('Location: listProducts.php');
+    header('Location: ./listProducts.php');
     exit;
   }
   mysqli_close($conn);

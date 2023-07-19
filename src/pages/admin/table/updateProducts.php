@@ -42,7 +42,7 @@
           <a href="./addCategory.php" class="btn btn-danger"><i class="fas fa-square-plus"></i> Adicionar categoria</a>
         </div>
 
-        <form action='updateProductsExe.php' id="formEdit" class="col-md-12 form-product" enctype="multipart/form-data">
+        <form method='POST' action='updateProductsExe.php' id="formEdit" class="col-md-12 form-product" enctype="multipart/form-data">
           <div class="form-outline mb-4">
             <input type="text" id="nome" class="form-control" name="nome" value="<?php echo ($nome);?>" required/>
             <label class="form-label" for="nome">Nome do produto</label>
