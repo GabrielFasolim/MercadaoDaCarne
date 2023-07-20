@@ -15,9 +15,9 @@
             echo "<td>$row[tipo_nome]</td>";
             echo "<td>$row[preco]</td>";
             echo "<td>
-                  <button id='deleteForm'>
+                  <a href='./deleteProducts.php?id=$row[id]' id='deleteForm'>
                     <i class='fas fa-trash'></i>
-                  </button>
+                  </a>
                   <a href='./updateProducts.php?id=$row[id]'>
                     <i class='fas fa-pen'></i>
                   </a>
