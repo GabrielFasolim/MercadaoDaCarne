@@ -30,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
           echo json_encode($response);
           mysqli_close($conn);
-          header('Location: ./listProducts.php');
+          header('Location: productTable.php');
           exit;
         } else {
             $status = 'error';
@@ -47,7 +47,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             exit;
         }
     }
-    header('Location: ./listProducts.php');
+    header('Location: productTable.php');
     exit;
   }
   mysqli_close($conn);
