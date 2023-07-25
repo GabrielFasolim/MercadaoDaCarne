@@ -32,6 +32,8 @@
   <body>
     <?php
       require_once "../../../components/adminAuthorization.php";
+      require_once "./categoryLoadEdit.php";
+      $id = $_GET['id'];
     ?>
     <main class="container-table">
       <div class="tableContent tableAdd">
@@ -41,9 +43,9 @@
           <a href="./addCategory.php" class="btn btn-danger"><i class="fas fa-square-plus"></i> Adicionar categoria</a>
         </div>
 
-        <form id="form" class="col-md-12 form-product">
+        <form method='POST' action='updateCategoryExe.php' id="formEdit" class="col-md-12 form-product">
           <div class="form-outline mb-4">
-            <input type="text" id="nome" class="form-control" name="nome" required/>
+            <input  value="<?php echo ($tipoNome);?>" type="text" id="nome" class="form-control" name="nome" required/>
             <label class="form-label" for="nome">Nome da categoria</label>
           </div>
 
@@ -52,7 +54,7 @@
             <label class="form-label" for="descricao">Descrição</label>
           </div>
 
-          <button type="submit" name='update' id='update' class="btn btn-danger btn-block mb-4">Criar</button>
+          <button value="<?php echo ($id);?>" id='update' type='submit' name='id' class="btn btn-danger btn-block mb-4">Editar</button>
         </form>
       </div>
     </main>
@@ -63,7 +65,6 @@
 
     <!-- Jquery -->
     <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.js"></script>
-    <script src="./addCategory.js"></script>
 
     <!-- Script SweetAlert -->
     <script src="sweetalert2.all.min.js"></script>

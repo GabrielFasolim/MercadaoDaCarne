@@ -15,7 +15,7 @@
                   <a>
                     <i class='fas fa-trash'></i>
                   </a>
-                  <a href='./updateCategory.php'>
+                  <a href='./updateCategory.php?id=$row[id]'>
                     <i class='fas fa-pen'></i>
                   </a>
                 </td>";
