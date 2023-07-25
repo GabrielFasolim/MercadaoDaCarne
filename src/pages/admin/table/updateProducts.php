@@ -33,6 +33,7 @@
     <?php
       require_once "../../../components/adminAuthorization.php";
       require_once "./loadProductsExe.php";
+      $id = $_GET['id'];
     ?>
     <main class="container-table">
       <div class="tableContent tableAdd">
@@ -66,7 +67,7 @@
           <label class="form-label" for="foto">Foto do produto</label>
           <input type="file" class="form-control mb-4" id="foto" name="foto" required/>
 
-          <button  value="<?php echo ($id);?>" id='update' type='submit' name='update' class="btn btn-danger btn-block mb-4">Editar</button>
+          <button value="<?php echo $id?>" id='update' type='submit' name='id' class="btn btn-danger btn-block mb-4">Editar</button>
         </form>
       </div>
     </main>
