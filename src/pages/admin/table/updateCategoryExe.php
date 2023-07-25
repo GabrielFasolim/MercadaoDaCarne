@@ -1,50 +1,44 @@
 <?php
-  session_start();
-  require_once "../../../database/connection.php";
-  header('Content-Type: application/json');
+session_start();
+require_once "../../../database/connection.php";
 
-  if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $id = $_POST['id']; 
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $id = $_POST['id'];
     $tipoNome = $_POST['nome'];
     $descricao = $_POST['descricao'];
 
-    if (isset($_FILES["foto"]) && $_FILES["foto"]["error"] == 0) {
-      $foto = $_FILES["foto"]["tmp_name"];
-      $foto_base64 = base64_encode(file_get_contents($foto));
+    $id = mysqli_real_escape_string($conn, $id);
+    $tipoNome = mysqli_real_escape_string($conn, $tipoNome);
+    $descricao = mysqli_real_escape_string($conn, $descricao);
 
-      $sql = "UPDATE tipo
-              SET nome = '$tipoNome',
-                  descricao = '$descricao'
-              WHERE id = '$id'";
+    $sql = "UPDATE tipo
+            SET nome = '$tipoNome',
+                descricao = '$descricao'
+            WHERE id = '$id'";
 
-      if ($result = mysqli_query($conn, $sql)) {       
+    if (mysqli_query($conn, $sql)) {
         $status = 'success';
-        $message = 'Requisição bem sucedida';
+        $message = 'Categoria atualizada com sucesso';
         $statusCode = 200;
-
-        $response = array(
-            'status' => $status,
-            'message' => $message,
-        );
-        echo json_encode($response);
-        http_response_code($statusCode);
-        header("location: categoryTable.php");
-        exit;
-      } else {
+    } else {
         $status = 'error';
-        $message = 'Erro ao realizar a requisição';
+        $message = 'Erro ao atualizar a categoria';
         $statusCode = 500;
-
-        $response = array(
-            'status' => $status,
-            'message' => $message,
-        );
-        echo json_encode($response);
-        http_response_code($statusCode);
-        exit;
-      }
     }
-  }
-  
-  mysqli_close($conn);
+
+    $response = array(
+        'status' => $status,
+        'message' => $message,
+    );
+
+    http_response_code($statusCode);
+    echo json_encode($response);
+
+    exit;
+} else {
+    header("Location: categoryTable.php");
+    exit; 
+}
+
+mysqli_close($conn);
 ?>
