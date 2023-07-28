@@ -15,10 +15,10 @@
             echo "<td>$row[tipo_nome]</td>";
             echo "<td>$row[preco]</td>";
             echo "<td>
-                  <a>
+                  <a href='./deleteProducts.php?id=$row[id]' id='deleteForm'>
                     <i class='fas fa-trash'></i>
                   </a>
-                  <a>
+                  <a href='./updateProducts.php?id=$row[id]'>
                     <i class='fas fa-pen'></i>
                   </a>
                 </td>";
@@ -28,6 +28,8 @@
 } 
 
 ?>
+
+<script src='./deleteProducts.js'></script>
 
 <script>
     var descricaoElements = document.getElementsByClassName("descricao");

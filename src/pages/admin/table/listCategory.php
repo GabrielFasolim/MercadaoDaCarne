@@ -12,10 +12,10 @@
             echo "<td>$row[nome]</td>";
             echo "<td class='descricaoCategory'>$row[descricao]</td>";
             echo "<td>
-                  <a>
+                  <a href ='./deleteCategory.php?id=$row[id]'>
                     <i class='fas fa-trash'></i>
                   </a>
-                  <a>
+                  <a href='./updateCategory.php?id=$row[id]'>
                     <i class='fas fa-pen'></i>
                   </a>
                 </td>";
