@@ -79,58 +79,39 @@
     <div class="products container-md">
       <p class="product-title">NOSSAS CARNES <span>BOVINAS</span></p>
       <div class="products-content">
-        <div class="product">
-          <img src="../../img/sobrecoxa-frango.png" alt="" class="img-fluid">
-          <div class="category-and-name">
-            <p class="product-category">Categoria</p>
-            <p class="product-name">Título da carne lorem lorem lorem</p>
-          </div>
-          <div class="price-and-kg">
-            <p class="product-price">R$00.00</p>
-            <p class="product-kg">KG</p>
-          </div>
-          <hr>
-          <a href="#" class="btn"><i class="fas fa-basket-shopping"></i> Comprar</a>
-        </div>
-        <div class="product">
-          <img src="../../img/sobrecoxa-frango.png" alt="" class="img-fluid">
-          <div class="category-and-name">
-            <p class="product-category">Categoria</p>
-            <p class="product-name">Título da carne lorem lorem lorem</p>
-          </div>
-          <div class="price-and-kg">
-            <p class="product-price">R$00.00</p>
-            <p class="product-kg">KG</p>
-          </div>
-          <hr>
-          <a href="#" class="btn"><i class="fas fa-basket-shopping"></i> Comprar</a>
-        </div>
-        <div class="product">
-          <img src="../../img/sobrecoxa-frango.png" alt="" class="img-fluid">
-          <div class="category-and-name">
-            <p class="product-category">Categoria</p>
-            <p class="product-name">Título da carne lorem lorem lorem</p>
-          </div>
-          <div class="price-and-kg">
-            <p class="product-price">R$00.00</p>
-            <p class="product-kg">KG</p>
-          </div>
-          <hr>
-          <a href="#" class="btn"><i class="fas fa-basket-shopping"></i> Comprar</a>
-        </div>
-        <div class="product">
-          <img src="../../img/sobrecoxa-frango.png" alt="" class="img-fluid">
-          <div class="category-and-name">
-            <p class="product-category">Categoria</p>
-            <p class="product-name">Título da carne lorem lorem lorem</p>
-          </div>
-          <div class="price-and-kg">
-            <p class="product-price">R$00.00</p>
-            <p class="product-kg">KG</p>
-          </div>
-          <hr>
-          <a href="#" class="btn"><i class="fas fa-basket-shopping"></i> Comprar</a>
-        </div>
+        <?php require "./loadBovinos.php"?>
+      </div>
+      <div class="btn-vermais"><a href="#" class="btn"><i class="fas fa-angles-right"></i> Ver mais</a></div>
+      <div class="main-division">
+    </div>
+    <div class="products container-md mt-3">
+      <p class="product-title">NOSSAS CARNES DE <span>AVES</span></p>
+      <div class="products-content">
+        <?php require "./loadAves.php"?>
+      </div>
+      <div class="btn-vermais"><a href="#" class="btn"><i class="fas fa-angles-right"></i> Ver mais</a></div>
+      <div class="main-division">
+    </div>
+    <div class="products container-md mt-3">
+      <p class="product-title">NOSSAS CARNES <span>SUÍNAS</span></p>
+      <div class="products-content">
+        <?php require "./loadSuinos.php"?>
+      </div>
+      <div class="btn-vermais"><a href="#" class="btn"><i class="fas fa-angles-right"></i> Ver mais</a></div>
+      <div class="main-division">
+    </div>
+    <div class="products container-md mt-3">
+      <p class="product-title">NOSSAS <span>LINGUIÇAS</span></p>
+      <div class="products-content">
+        <?php require "./loadLinguicas.php"?>
+      </div>
+      <div class="btn-vermais"><a href="#" class="btn"><i class="fas fa-angles-right"></i> Ver mais</a></div>
+      <div class="main-division">
+    </div>
+    <div class="products container-md mt-3">
+      <p class="product-title">NOSSOS <span>KITS</span></p>
+      <div class="products-content">
+        <?php require "./loadKits.php"?>
       </div>
       <div class="btn-vermais"><a href="#" class="btn"><i class="fas fa-angles-right"></i> Ver mais</a></div>
       <div class="main-division">
