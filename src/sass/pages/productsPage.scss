@@ -11,13 +11,6 @@
     
 }
 
-.box .imgs .imgDefault .imgOther{
-    border-radius: 8%;
-    margin: 0.5rem;
-    &:hover{
-        box-shadow: 0.5px 0.5px 0.5px 1px black;
-    }
-}
 
 #imgFirst{
     border-radius: 8%;
@@ -25,6 +18,7 @@
     height: 100%;
     object-fit: cover;
     margin-bottom: 1rem;
+    height: 450px;
 }
 
 .box .info .button-24 {
@@ -93,31 +87,22 @@
 
 
 @media (max-width: 954px) {
-    .box .imgs .imgDefault .imgOther{
-        height: 150px;
+    #imgFirst{
+        height: 350px;
     }
     
    
 }
 
 @media (max-width: 854px){
-    .box .imgs .imgDefault .imgOther{
-        height: 130px;
-    }
-    
-}
-
-@media (max-width: 793px){
-    .box .imgs .imgDefault .imgOther{
-        height: 110px;
+    #imgFirst{
+        height: 250px;
     }
     
 }
 
 @media (max-width: 734px){
-    .box .imgs .imgDefault .imgOther{
-        height: 100px;
-    }
+    
     .fa-truck-fast{
         height: 20px;
         

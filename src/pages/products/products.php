@@ -36,10 +36,6 @@
                 <div class="imgMain">
                     <img id="imgFirst" src="../../img/carne.jpg" alt="">
                 </div>
-                <div class="imgDefault">
-                    <img class="imgOther" src="../../img/carne.jpg" alt="">
-                    <img class="imgOther" src="../../img/carne.jpg" alt="">
-                </div>
             </div>
             <div class="info">
                 <h2 id="titulo">TITULO CARNE</h2>
@@ -55,20 +51,6 @@
             </div>
         </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"></script>
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     </body>
