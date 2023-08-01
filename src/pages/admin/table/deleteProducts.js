@@ -9,12 +9,12 @@ function confirmarExclusao() {
       confirmButtonText: "Sim, desejo deletar!",
     }).then((result) => {
       if (result.isConfirmed) {
-        document.getElementById("deleteForm").submit();
+        document.getElementById("#deleteForm").submit();
       }
     });
   }
   
-  const button = document.querySelector("#btnDelete");
+  const button = document.querySelector("#deleteForm");
   
   button.addEventListener("click", confirmarExclusao);
   
