@@ -37,7 +37,7 @@
         <div class="box">
             <div class="imgs">
                 <div class="imgMain">
-                <img src="data:image/jpeg;base64,<?php echo $imagem; ?>" alt="" class="profile__pic img_fluid" />
+                <img src="data:image/jpeg;base64,<?php echo $imagem; ?>" alt="" class="profile__pic img_fluid" id='imgProduto'/>
                 </div>
             </div>
             <div class="info">

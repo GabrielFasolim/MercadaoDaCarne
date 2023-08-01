@@ -15,6 +15,10 @@
   }
 }
 
+#imgProduto{
+  height: 500px;
+}
+
 .products-content {
   height: auto;
   width: 100%;
@@ -143,5 +147,14 @@
     a {
       width: 60%;
     }
+  }
+  #imgProduto{
+    height: 250px;
+  }
+}
+
+@media (max-width:375px){
+  #imgProduto{
+    height: 220px;
   }
 }
