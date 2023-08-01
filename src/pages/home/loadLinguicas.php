@@ -22,7 +22,7 @@
               echo "<p class='product-kg'>KG</p>";
             echo '</div>';
             echo '<hr>';
-            echo "<a href='#' class='btn'><i class='fas fa-basket-shopping'></i> Comprar</a>";
+            echo "<a href='../../pages/products/products.php?id=$row[id]' class='btn'><i class='fas fa-basket-shopping'></i> Comprar</a>";
           echo '</div>';
       }
     } else {
