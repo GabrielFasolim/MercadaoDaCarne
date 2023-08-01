@@ -3,9 +3,9 @@
 
   $id = $_GET['id'];
 
-  $sql = "SELECT c.id, c.nome, c.descricao, c.preco, t.nome AS tipo_nome 
-  FROM mercadaodacarne.carnes c 
-  LEFT JOIN mercadaodacarne.tipo t ON c.tipo_id = t.id
+  $sql = "SELECT c.id, c.nome, c.descricao, c.preco, c.foto, t.nome AS tipo_nome 
+  FROM carnes c 
+  LEFT JOIN tipo t ON c.tipo_id = t.id
   WHERE c.id = $id";
   
   if ($result = mysqli_query($conn, $sql)) {
@@ -16,7 +16,7 @@
         $descricao = $row['descricao'];
         $preco = $row['preco'];
         $tipo_nome = $row['tipo_nome'];
-        
+        $imagem = $row['foto'];
       }
     }
   }   
