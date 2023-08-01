@@ -11,7 +11,7 @@ CREATE TABLE Carnes (
     tipo_id INT NOT NULL,
     preco DECIMAL(10, 2) NOT NULL,
     foto BLOB,
-    FOREIGN KEY (tipo_id) REFERENCES Tipo(id)
+    FOREIGN KEY (tipo_id) REFERENCES Tipo(id) ON DELETE CASCADE
 );
 
 CREATE TABLE Usuario (
