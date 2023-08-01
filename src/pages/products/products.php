@@ -30,23 +30,26 @@
         <title>Mercadão da carne</title>
     </head>
     <body>
-        <?php require_once '../../components/header.php'; ?>
+        <?php 
+            require_once '../../components/header.php'; 
+            require_once './load.php';
+        ?>
         <div class="box">
             <div class="imgs">
                 <div class="imgMain">
-                    <img id="imgFirst" src="../../img/carne.jpg" alt="">
+                <?php echo "<img src='data:image/jpeg;base64, " . $row['foto'] . "' alt='' class='img-fluid profile-pic'>";?>
                 </div>
             </div>
             <div class="info">
-                <h2 id="titulo">TITULO CARNE</h2>
+                <h2 id="titulo"><?php echo ($nome);?></h2>
                 <p>PREÇO POR KG</p>
-                <h4 id="preco">R$</h4>
+                <h4 id="preco">R$ <?php echo ($preco);?></h4>
                 <button class="button-24" role="button">COMPRAR PELO WHATSAPP</button>
                 <p class="pix"><i class="fab fa-pix"></i> Pagamento por <span>PIX</span></p>
                 <h7><i class="fas fa-truck-fast"></i>Entrega Agendada</h7>
                 <div class="description">
                     <h5>Descrição</h5>
-                    <p>loren loren loren </p>
+                    <p><?php echo ($descricao);?></p>
                 </div>
             </div>
         </div>
