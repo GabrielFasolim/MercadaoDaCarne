@@ -529,7 +529,7 @@
 }
 
 #imgProduto {
-  height: 500px;
+  max-height: 600px;
 }
 
 .products-content {
@@ -651,12 +651,12 @@
     width: 60%;
   }
   #imgProduto {
-    height: 250px;
+    max-height: 250px;
   }
 }
 @media (max-width: 375px) {
   #imgProduto {
-    height: 220px;
+    max-height: 220px;
   }
 }
 .container-table {
