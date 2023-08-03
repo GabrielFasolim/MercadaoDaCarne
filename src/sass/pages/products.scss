@@ -1,3 +1,7 @@
+.box{
+  margin-bottom: 5rem;
+}
+
 .products {
   height: auto;
   width: 100%;
@@ -13,6 +17,10 @@
   span {
     color: $lightRed;
   }
+}
+
+#imgProduto{
+  max-height: 600px;
 }
 
 .products-content {
@@ -143,5 +151,14 @@
     a {
       width: 60%;
     }
+  }
+  #imgProduto{
+    max-height: 250px;
+  }
+}
+
+@media (max-width:375px){
+  #imgProduto{
+    max-height: 220px;
   }
 }

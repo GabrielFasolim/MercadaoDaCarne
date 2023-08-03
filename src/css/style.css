@@ -512,6 +512,10 @@
   background-color: #c00000;
 }
 
+.box {
+  margin-bottom: 5rem;
+}
+
 .products {
   height: auto;
   width: 100%;
@@ -526,6 +530,10 @@
 }
 .product-title span {
   color: #de3b3c;
+}
+
+#imgProduto {
+  max-height: 600px;
 }
 
 .products-content {
@@ -645,6 +653,14 @@
   }
   .btn-vermais a {
     width: 60%;
+  }
+  #imgProduto {
+    max-height: 250px;
+  }
+}
+@media (max-width: 375px) {
+  #imgProduto {
+    max-height: 220px;
   }
 }
 .container-table {

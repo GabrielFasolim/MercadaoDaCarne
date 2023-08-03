@@ -30,26 +30,70 @@
         <title>Mercadão da carne</title>
     </head>
     <body>
-        <?php require_once '../../components/header.php'; ?>
+        <?php 
+            require_once '../../components/header.php'; 
+            require_once './load.php';
+        ?>
         <div class="box">
             <div class="imgs">
                 <div class="imgMain">
-                    <img id="imgFirst" src="../../img/carne.jpg" alt="">
+                <img src="data:image/jpeg;base64,<?php echo $imagem; ?>" alt="" class="profile__pic img_fluid" id='imgProduto'/>
                 </div>
             </div>
             <div class="info">
-                <h2 id="titulo">TITULO CARNE</h2>
+                <h2 id="titulo"><?php echo ($nome);?></h2>
                 <p>PREÇO POR KG</p>
-                <h4 id="preco">R$</h4>
+                <h4 id="preco">R$ <?php echo ($preco);?></h4>
                 <button class="button-24" role="button">COMPRAR PELO WHATSAPP</button>
                 <p class="pix"><i class="fab fa-pix"></i> Pagamento por <span>PIX</span></p>
                 <h7><i class="fas fa-truck-fast"></i>Entrega Agendada</h7>
                 <div class="description">
                     <h5>Descrição</h5>
-                    <p>loren loren loren </p>
+                    <p><?php echo ($descricao);?></p>
                 </div>
             </div>
         </div>
+        <div class="products container-md">
+            <p class="product-title">NOSSAS CARNES <span>BOVINAS</span></p>
+            <div class="products-content">
+                <?php require "../home/loadBovinos.php"?>
+            </div>
+            <div class="btn-vermais"><a href="#" class="btn"><i class="fas fa-angles-right"></i> Ver mais</a></div>
+            <div class="main-division">
+            </div>
+            <div class="products container-md mt-3">
+                <p class="product-title">NOSSAS CARNES DE <span>AVES</span></p>
+            <div class="products-content">
+                <?php require "../home/loadAves.php"?>
+            </div>
+            <div class="btn-vermais"><a href="#" class="btn"><i class="fas fa-angles-right"></i> Ver mais</a></div>
+            <div class="main-division">
+            </div>
+            <div class="products container-md mt-3">
+            <p class="product-title">NOSSAS CARNES <span>SUÍNAS</span></p>
+            <div class="products-content">
+                <?php require "../home/loadSuinos.php"?>
+            </div>
+            <div class="btn-vermais"><a href="#" class="btn"><i class="fas fa-angles-right"></i> Ver mais</a></div>
+            <div class="main-division">
+            </div>
+            <div class="products container-md mt-3">
+            <p class="product-title">NOSSAS <span>LINGUIÇAS</span></p>
+            <div class="products-content">
+                <?php require "../home/loadSuinos.php"?>
+            </div>
+            <div class="btn-vermais"><a href="#" class="btn"><i class="fas fa-angles-right"></i> Ver mais</a></div>
+            <div class="main-division">
+            </div>
+            <div class="products container-md mt-3">
+            <p class="product-title">NOSSOS <span>KITS</span></p>
+            <div class="products-content">
+                <?php require "../home/loadKits.php"?>
+            </div>
+            <div class="btn-vermais"><a href="#" class="btn"><i class="fas fa-angles-right"></i> Ver mais</a></div>
+            <div class="main-division">
+        </div>
+        
 
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"></script>
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
