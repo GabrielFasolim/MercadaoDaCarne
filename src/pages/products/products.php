@@ -80,7 +80,7 @@
             <div class="products container-md mt-3">
             <p class="product-title">NOSSAS <span>LINGUIÇAS</span></p>
             <div class="products-content">
-                <?php require "../home/loadSuinos.php"?>
+                <?php require "../home/loadLinguicas.php"?>
             </div>
             <div class="btn-vermais"><a href="#" class="btn"><i class="fas fa-angles-right"></i> Ver mais</a></div>
             <div class="main-division">
