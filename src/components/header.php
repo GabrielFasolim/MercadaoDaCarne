@@ -4,7 +4,7 @@
       <p>Cidade - Estado</p>
     </div>
     <div class="header-content container-md">
-      <img class="img-fluid" src="../../img/logo.png" alt="Logo mercadão da carne">
+      <a href="http://localhost/Mercad%C3%A3o%20da%20carne/src/pages/home/home.php"><img class="img-fluid" src="../../img/logo.png" alt="Logo mercadão da carne"></a>
       <div class="content-principal">
         <div class="principal-search">
           <div class="categories-nav"><p>categorias</p><p>Veja nossos Produtos</p></div>
