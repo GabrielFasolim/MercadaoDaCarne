@@ -12,12 +12,12 @@
         </div>
         <div class="principal-nav">
           <ul class="principal-categories">
-            <li><i class="icon-menu icon-bovinos"></i><p>bovinos</p></li>
-            <li><i class="icon-menu icon-aves"></i><p>aves</p></li>
-            <li><i class="icon-menu icon-suinos"></i><p>suínos</p></li>
-            <li><i class="icon-menu icon-linguicas"></i><p>linguiças</p></li>
-            <li><i class="icon-menu icon-kits"></i><p>kits</p></li>
-            <li><i class="icon-menu icon-tudo"></i><p>tudo</p></li>
+            <a href="http://localhost/Mercad%C3%A3o%20da%20carne/src/pages/categories/category.php?category=Bovinos"><li><i class="icon-menu icon-bovinos"></i><p>bovinos</p></li></a>
+            <a href="http://localhost/Mercad%C3%A3o%20da%20carne/src/pages/categories/category.php?category=Aves"><li><i class="icon-menu icon-aves"></i><p>aves</p></li></a>
+            <a href="http://localhost/Mercad%C3%A3o%20da%20carne/src/pages/categories/category.php?category=Suínos"><li><i class="icon-menu icon-suinos"></i><p>suínos</p></li></a>
+            <a href="http://localhost/Mercad%C3%A3o%20da%20carne/src/pages/categories/category.php?category=Linguiças"><li><i class="icon-menu icon-linguicas"></i><p>linguiças</p></li></a>
+            <a href="http://localhost/Mercad%C3%A3o%20da%20carne/src/pages/categories/category.php?category=Kits"><li><i class="icon-menu icon-kits"></i><p>kits</p></li></a>
+            <a href="http://localhost/Mercad%C3%A3o%20da%20carne/src/pages/categories/category.php?category=Tudo"><li><i class="icon-menu icon-tudo"></i><p>tudo</p></li></a>
           </ul>
         </div>
       </div>

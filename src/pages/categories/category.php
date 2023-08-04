@@ -33,6 +33,11 @@
 <body>
   <?php require_once '../../components/header.php'; ?>
   <main class="container-main">
+    <div class="products container-md mt-3">
+      <div class="products-content">
+        <? require_once '../categories/categoryExe.php'; ?>
+      </div>
+    </div>
   </main>
   
   <!-- MDB -->
