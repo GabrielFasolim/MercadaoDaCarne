@@ -27,7 +27,7 @@
     rel="stylesheet"
   />
 
-  <title>Mercadão da carne</title>
+  <title>Mercadão da carne - Home</title>
 </head>
 
 <body>
@@ -81,7 +81,7 @@
       <div class="products-content">
         <?php require "./loadBovinos.php"?>
       </div>
-      <div class="btn-vermais"><a href="#" class="btn"><i class="fas fa-angles-right"></i> Ver mais</a></div>
+      <div class="btn-vermais"><a href="http://localhost/Mercad%C3%A3o%20da%20carne/src/pages/categories/category.php?category=Bovinos" class="btn"><i class="fas fa-angles-right"></i> Ver mais</a></div>
       <div class="main-division">
     </div>
     <div class="products container-md mt-3">
@@ -89,7 +89,7 @@
       <div class="products-content">
         <?php require "./loadAves.php"?>
       </div>
-      <div class="btn-vermais"><a href="#" class="btn"><i class="fas fa-angles-right"></i> Ver mais</a></div>
+      <div class="btn-vermais"><a href="http://localhost/Mercad%C3%A3o%20da%20carne/src/pages/categories/category.php?category=Aves" class="btn"><i class="fas fa-angles-right"></i> Ver mais</a></div>
       <div class="main-division">
     </div>
     <div class="products container-md mt-3">
@@ -97,7 +97,7 @@
       <div class="products-content">
         <?php require "./loadSuinos.php"?>
       </div>
-      <div class="btn-vermais"><a href="#" class="btn"><i class="fas fa-angles-right"></i> Ver mais</a></div>
+      <div class="btn-vermais"><a href="http://localhost/Mercad%C3%A3o%20da%20carne/src/pages/categories/category.php?category=Suínos" class="btn"><i class="fas fa-angles-right"></i> Ver mais</a></div>
       <div class="main-division">
     </div>
     <div class="products container-md mt-3">
@@ -105,7 +105,7 @@
       <div class="products-content">
         <?php require "./loadLinguicas.php"?>
       </div>
-      <div class="btn-vermais"><a href="#" class="btn"><i class="fas fa-angles-right"></i> Ver mais</a></div>
+      <div class="btn-vermais"><a href="http://localhost/Mercad%C3%A3o%20da%20carne/src/pages/categories/category.php?category=Linguiças" class="btn"><i class="fas fa-angles-right"></i> Ver mais</a></div>
       <div class="main-division">
     </div>
     <div class="products container-md mt-3">
@@ -113,7 +113,7 @@
       <div class="products-content">
         <?php require "./loadKits.php"?>
       </div>
-      <div class="btn-vermais"><a href="#" class="btn"><i class="fas fa-angles-right"></i> Ver mais</a></div>
+      <div class="btn-vermais"><a href="http://localhost/Mercad%C3%A3o%20da%20carne/src/pages/categories/category.php?category=Kits" class="btn"><i class="fas fa-angles-right"></i> Ver mais</a></div>
       <div class="main-division">
     </div>
   </main>

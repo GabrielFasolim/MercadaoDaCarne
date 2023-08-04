@@ -27,12 +27,19 @@
             rel="stylesheet"
         />
 
-        <title>Mercadão da carne</title>
+        <?php
+            require_once './load.php';
+            $title = "Mercadão da carne";
+            if (isset($nome)) {
+                $title .= " - " . $nome;
+            }
+        ?>
+
+        <title><?php echo $title; ?></title>
     </head>
     <body>
         <?php 
             require_once '../../components/header.php'; 
-            require_once './load.php';
         ?>
         <div class="box">
             <div class="imgs">

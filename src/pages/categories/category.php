@@ -27,7 +27,15 @@
     rel="stylesheet"
   />
 
-  <title>Mercadão da carne</title>
+  <?php
+    $category = $_GET['category'];
+    $title = "Mercadão da carne";
+    if (isset($category)) {
+        $title .= " - " . $category;
+    }
+  ?>
+
+  <title><?php echo $title; ?></title>  
 </head>
 
 <body>
