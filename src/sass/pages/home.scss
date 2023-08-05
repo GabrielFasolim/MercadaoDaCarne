@@ -21,6 +21,11 @@
     display: flex;
     align-items: center;
     gap: 10px;
+    &:nth-child(2) {
+      i {
+        color: green;
+      }
+    }
     i {
       font-size: 40px;
       color: $lightRed;

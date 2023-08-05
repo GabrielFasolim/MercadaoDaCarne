@@ -381,6 +381,9 @@
   align-items: center;
   gap: 10px;
 }
+.main-infos .info:nth-child(2) i {
+  color: green;
+}
 .main-infos .info i {
   font-size: 40px;
   color: #de3b3c;
