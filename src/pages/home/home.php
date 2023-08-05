@@ -113,10 +113,10 @@
       <div class="main-division">
       </div>
       <div class="main-adverts">
-        <div class="advert"></div>
-        <div class="advert"></div>
-        <div class="advert"></div>
-        <div class="advert"></div>
+        <div class="advert"><a href="http://localhost/Mercad%C3%A3o%20da%20carne/src/pages/categories/category.php?category=Tudo"><img src="../../img/anuncio 1.png" alt=""></div></a>
+        <div class="advert"><a href="http://localhost/Mercad%C3%A3o%20da%20carne/src/pages/categories/category.php?category=Kits"><img src="../../img/anuncio 2.png" alt=""></div></a>
+        <div class="advert"><img src="../../img/anuncio 3.png" alt=""></div>
+        <div class="advert"><img src="../../img/anuncio 4.png" alt=""></div>
       </div>
       <div class="main-division">
       </div>

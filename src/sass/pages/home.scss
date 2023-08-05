@@ -51,20 +51,9 @@
   justify-content: center;
   .advert {
     width: 49%;
-    min-height: 100px;
-    background-color: blue;
-    border-radius: 10px;
-    &:nth-child(1) {
-      background: url("../img/anuncio\ 1.png") center / contain no-repeat;
-    }
-    &:nth-child(2) {
-      background: url("../img/anuncio\ 2.png") center / contain no-repeat;
-    }
-    &:nth-child(3) {
-      background: url("../img/anuncio\ 3.png") center / contain no-repeat;
-    }
-    &:nth-child(4) {
-      background: url("../img/anuncio\ 4.png") center / contain no-repeat;
+    img {
+      border-radius: 10px;
+      width: 100%;
     }
   }
 }
@@ -118,9 +107,5 @@
 
   .main-infos .info p {
     font-size: 0.4.5rem;
-  }
-
-  .main-adverts .advert {
-    height: 60px;
   }
 }
