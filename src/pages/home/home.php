@@ -34,7 +34,52 @@
   <?php require_once '../../components/header.php'; ?>
   <main class="container-main">
     <div class="main-head container-md">
-      <div class="main-carousel"></div>
+      <div class="main-carousel">
+        <div id="carouselExampleCrossfade" class="carousel slide carousel-fade" data-mdb-ride="carousel">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-mdb-target="#carouselExampleCrossfade"
+              data-mdb-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-mdb-target="#carouselExampleCrossfade"
+              data-mdb-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-mdb-target="#carouselExampleCrossfade"
+              data-mdb-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a href="http://localhost/Mercad%C3%A3o%20da%20carne/src/pages/categories/category.php?category=Tudo"><img src="../../img/carrossel 1.png" class="d-block w-100" alt="Wild Landscape"/></a>
+            </div>
+            <div class="carousel-item">
+              <img src="../../img/carrossel 1.png" class="d-block w-100" alt="Camera"/>
+            </div>
+            <div class="carousel-item">
+              <img src="../../img/carrossel 1.png" class="d-block w-100" alt="Exotic Fruits"/>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleCrossfade" data-mdb-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleCrossfade" data-mdb-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      
       <div class="main-infos">
         <div class="info">
           <i class="fas fa-truck-fast"></i>
