@@ -49,7 +49,7 @@
 <header class="header__container">
   <div class="header-infos">
     <i class="fas fa-location-dot"></i>
-    <p>Cidade - Estado</p>
+    <p>Rio Grande do Sul</p>
   </div>
   <div class="header-content container-md">
     <a href="http://localhost/Mercad%C3%A3o%20da%20carne/src/pages/home/home.php"><img class="img-fluid" src="../../img/logo.png" alt="Logo mercadão da carne"></a>
