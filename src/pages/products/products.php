@@ -27,6 +27,9 @@
             rel="stylesheet"
         />
 
+        <!-- FavIcon -->
+        <link rel="shortcut icon" href="../../img/favicon.png" type="image/x-icon">
+
         <?php
             require_once './load.php';
             $title = "Mercadão da carne";
