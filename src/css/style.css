@@ -237,7 +237,7 @@
 
 #menu__bar-search {
   background-color: #de3b3c;
-  min-height: 100vh;
+  min-height: 114px;
   width: 100%;
   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
   display: flex;

@@ -25,10 +25,13 @@ navbarSearchClose.onclick = () => {
 document.onclick = (event) => {
   if (
     navbarMenu.contains(event.target) ||
-    navbarMenuIcon.contains(event.target)
+    navbarMenuIcon.contains(event.target) ||
+    searchMenu.contains(event.target) ||
+    navbarSearchIcon.contains(event.target)
   ) {
     return;
   }
 
   navbarMenu.classList.remove("openNavbar");
+  searchMenu.classList.remove("openNavbar");
 };
