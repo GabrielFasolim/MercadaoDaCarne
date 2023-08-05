@@ -419,6 +419,28 @@
   width: 100%;
 }
 
+.whatsapp-link {
+  margin: 30px;
+  background-color: green;
+  right: 0;
+  bottom: 0;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.whatsapp-link a {
+  color: white;
+  font-size: 30px;
+}
+.whatsapp-link a:hover {
+  color: white;
+}
+
 @media (max-width: 992px) {
   .main-head {
     height: auto;

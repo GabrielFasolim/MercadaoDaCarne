@@ -36,6 +36,9 @@
 <body>
   <?php require_once '../../components/header.php'; ?>
   <main class="container-main">
+    <div class="whatsapp-link">
+      <a href=""><i class="fab fa-whatsapp"></i></a>
+    </div>
     <div class="main-head container-md">
       <div class="main-carousel">
         <div id="carouselExampleCrossfade" class="carousel slide carousel-fade" data-mdb-ride="carousel">
