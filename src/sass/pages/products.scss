@@ -1,4 +1,4 @@
-.box{
+.box {
   margin-bottom: 5rem;
 }
 
@@ -19,7 +19,7 @@
   }
 }
 
-#imgProduto{
+#imgProduto {
   max-height: 600px;
 }
 
@@ -77,6 +77,14 @@
       margin: 0;
     }
   }
+}
+
+.null {
+  color: #7d7e8a;
+  font-weight: bold;
+  align-self: center;
+  text-align: center;
+  margin: auto 0;
 }
 
 .category-and-name {
@@ -152,13 +160,13 @@
       width: 60%;
     }
   }
-  #imgProduto{
+  #imgProduto {
     max-height: 250px;
   }
 }
 
-@media (max-width:375px){
-  #imgProduto{
+@media (max-width: 375px) {
+  #imgProduto {
     max-height: 220px;
   }
 }

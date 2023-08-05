@@ -706,6 +706,14 @@
   margin: 0;
 }
 
+.null {
+  color: #7d7e8a;
+  font-weight: bold;
+  align-self: center;
+  text-align: center;
+  margin: auto 0;
+}
+
 .category-and-name {
   display: flex;
   flex-direction: column;
