@@ -28,7 +28,7 @@
   />
 
   <?php
-    $category = $_GET['category'];
+    $category = $_GET['search'];
     $title = "Mercadão da carne";
     if (isset($category)) {
         $title .= " - " . $category;
@@ -43,7 +43,7 @@
   <main class="container-main">
     <div class="products container-md mt-3">
       <div class="products-content">
-        <? require_once '../categories/categoryExe.php'; ?>
+        <? require_once '../categories/categorySearchExe.php'; ?>
       </div>
     </div>
   </main>

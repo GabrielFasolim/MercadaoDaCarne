@@ -8,7 +8,12 @@
       <div class="content-principal">
         <div class="principal-search">
           <div class="categories-nav"><p>categorias</p><p>Veja nossos Produtos</p></div>
-          <div class="categories-search"><input type="text" placeholder="Procurar..."><i class="bi bi-search"></i></div>
+          <div class="categories-search">
+            <input type="text" placeholder="Procurar..." id="search">
+            <button class="btn-search" id="button">
+              <i class="bi bi-search"></i>
+            </button>
+          </div>
         </div>
         <div class="principal-nav">
           <ul class="principal-categories">

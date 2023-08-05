@@ -81,6 +81,10 @@
   font-size: 14px;
   align-self: center;
 }
+.header__container .header-content .content-principal .principal-search .categories-search .btn-search {
+  background-color: transparent;
+  border: none;
+}
 .header__container .header-content .content-principal .principal-nav {
   display: flex;
   align-items: center;
