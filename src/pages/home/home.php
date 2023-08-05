@@ -120,7 +120,7 @@
         <div class="advert"><img src="../../img/anuncio 3.png" alt=""></div>
         <div class="advert"><img src="../../img/anuncio 4.png" alt=""></div>
       </div>
-      
+
       <div class="main-division">
       </div>
     </div>

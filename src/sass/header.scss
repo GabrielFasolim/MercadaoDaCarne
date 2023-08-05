@@ -178,6 +178,69 @@
   background-image: url(../img/tudo.png);
 }
 
+.aside-bar {
+  font-family: $font;
+  font-weight: 500;
+  right: 0;
+  position: fixed;
+  z-index: 9999;
+  transform: translateX(1000px);
+  transition: transform 0.3s ease-in-out;
+}
+
+.openNavbar {
+  transform: translateX(0);
+  transition: 0.3s all;
+}
+
+#menu__bar {
+  background-color: $lightRed;
+  min-height: 100vh;
+  width: 280px;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  display: flex;
+  flex-direction: column;
+
+  .menu__bar-icon {
+    align-self: flex-end;
+    margin: 5px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.466);
+      color: black;
+    }
+  }
+
+  ul {
+    margin-left: 33px;
+    margin-top: 1rem;
+    padding-left: 0;
+    list-style: none;
+
+    li {
+      font-size: 18px;
+      list-style: none;
+      margin-top: 20px;
+
+      a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+
+        &:hover {
+          color: rgb(0, 0, 0);
+        }
+      }
+    }
+  }
+
+  ul li:first-child {
+    margin-top: 0;
+  }
+}
+
 @media (max-width: 1024px) {
   .header__container {
     .header-content {
