@@ -44,7 +44,7 @@
 
     img {
       width: 300px;
-      height: 300px;
+      height: 200px;
       object-fit: contain;
       border-top-left-radius: 10px;
       border-top-right-radius: 10px;
@@ -162,6 +162,10 @@
   }
   #imgProduto {
     max-height: 250px;
+  }
+
+  .products-content .product img {
+    height: 150px;
   }
 }
 

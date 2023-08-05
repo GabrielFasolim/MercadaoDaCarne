@@ -85,5 +85,9 @@
   </div>
 </header>
 
+<div class="whatsapp-link">
+  <a href=""><i class="fab fa-whatsapp"></i></a>
+</div>
+
 <script src="../../utils/navbar.js"></script>
 
