@@ -27,12 +27,19 @@
             rel="stylesheet"
         />
 
-        <title>Mercadão da carne</title>
+        <?php
+            require_once './load.php';
+            $title = "Mercadão da carne";
+            if (isset($nome)) {
+                $title .= " - " . $nome;
+            }
+        ?>
+
+        <title><?php echo $title; ?></title>
     </head>
     <body>
         <?php 
             require_once '../../components/header.php'; 
-            require_once './load.php';
         ?>
         <div class="box">
             <div class="imgs">
@@ -97,5 +104,7 @@
 
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"></script>
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+        <script src="../categories/categorySearch.js"></script>
     </body>
 </html>
