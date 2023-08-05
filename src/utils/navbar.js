@@ -1,14 +1,25 @@
 let navbarMenuIcon = document.querySelector("#app__nav-icon");
+let navbarSearchIcon = document.querySelector("#app__search-icon");
 let navbarMenuClose = document.querySelector(".menu__bar-icon");
+let navbarSearchClose = document.querySelector(".search__bar-icon");
 let navbarMenu = document.querySelector(".aside-bar");
+let searchMenu = document.querySelector(".search-aside-bar");
 
 navbarMenuIcon.onclick = () => {
   navbarMenu.classList.toggle("openNavbar");
-  console.log("alo");
 };
 
 navbarMenuClose.onclick = () => {
   navbarMenu.classList.toggle("openNavbar");
+};
+
+navbarSearchIcon.onclick = () => {
+  searchMenu.classList.toggle("openNavbar");
+  searchMenu.style.width = "100%";
+};
+
+navbarSearchClose.onclick = () => {
+  searchMenu.classList.toggle("openNavbar");
 };
 
 document.onclick = (event) => {
