@@ -1,14 +1,14 @@
 .box {
-  padding: 2rem;
   display: flex;
   justify-content: center;
+  margin: 100px 0;
 }
 
 .box .info {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 2rem;
+  margin: 0 20px;
 }
 
 .imgs {
@@ -16,6 +16,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  margin-right: 30px;
 }
 
 #imgProduto {
@@ -136,79 +139,20 @@
   }
 }
 
-@media (max-width: 954px) {
-  #imgFirst {
-    height: 350px;
+@media (max-width: 768px) {
+  .box {
+    flex-direction: column;
   }
-}
-
-@media (max-width: 854px) {
-  #imgFirst {
-    height: 250px;
+  .imgs {
+    width: 100%;
+    box-shadow: none;
   }
-}
-
-@media (max-width: 734px) {
-  .fa-truck-fast {
-    height: 20px;
+  .box .info {
+    padding: 0;
   }
 }
 
 @media (max-width: 425px) {
-  .box {
-    padding: 2rem;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .box .info {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 2rem;
-  }
-
-  .box .imgs .imgDefault .imgOther {
-    border-radius: 8%;
-    margin: 0.5rem;
-    &:hover {
-      box-shadow: 0.5px 0.5px 0.5px 1px black;
-    }
-  }
-
-  #imgFirst {
-    border-radius: 8%;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    margin-bottom: 1rem;
-  }
-}
-
-@media (max-width: 390px) {
-  .box .imgs .imgDefault .imgOther {
-    height: 92px;
-  }
-}
-
-@media (max-width: 375px) {
-  .box .imgs .imgDefault .imgOther {
-    height: 90px;
-  }
-}
-
-@media (max-width: 360px) {
-  .box .imgs .imgDefault .imgOther {
-    height: 85px;
-  }
-}
-
-@media (max-width: 320px) {
-  .box .imgs .imgDefault .imgOther {
-    height: 70px;
-  }
-
   .box .info .button-24 {
     font-size: 12px;
   }

@@ -44,7 +44,7 @@
         <?php 
             require_once '../../components/header.php'; 
         ?>
-        <div class="box">
+        <div class="box ">
             <div class="imgs">
                 <div class="imgMain">
                     <img src="data:image/jpeg;base64,<?php echo $imagem; ?>" alt="" class="profile__pic img_fluid" id='imgProduto'/>
