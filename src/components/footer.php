@@ -24,10 +24,10 @@
           <h6 class="text-uppercase fw-bold"><i class="bi bi-house-door-fill"></i> home</h6>
           <hr class="mb-4 mt-0 d-inline-block mx-auto"/>
           <p>
-            <a href="#" class="text-dark">Ínicio</a>
+            <a href="http://localhost/Mercad%C3%A3o%20da%20carne/src/pages/home/home.php" class="text-dark">Ínicio</a>
           </p>
           <p>
-            <a href="#" class="text-dark">Quem somos?</a>
+            <a href="http://localhost/Mercad%C3%A3o%20da%20carne/src/pages/home/home.php" class="text-dark">Quem somos?</a>
           </p>
           <p>
             <a href="http://localhost/Mercad%C3%A3o%20da%20carne/src/pages/categories/category.php?category=Tudo" class="text-dark">Produtos</a>
