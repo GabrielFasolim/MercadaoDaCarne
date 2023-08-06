@@ -67,10 +67,10 @@
               <a href="http://localhost/Mercad%C3%A3o%20da%20carne/src/pages/categories/category.php?category=Tudo"><img src="../../img/carrossel 1.png" class="d-block w-100" alt="Wild Landscape"/></a>
             </div>
             <div class="carousel-item">
-              <img src="../../img/carrossel 1.png" class="d-block w-100" alt="Camera"/>
+              <a href="http://localhost/Mercad%C3%A3o%20da%20carne/src/pages/categories/category.php?category=Kits"></a><img src="../../img/carrossel 2.png" class="d-block w-100" alt="Camera"/>
             </div>
             <div class="carousel-item">
-              <img src="../../img/carrossel 1.png" class="d-block w-100" alt="Exotic Fruits"/>
+              <a target="blank_" href="instagram.com"><img src="../../img/carrossel 3.png" class="d-block w-100" alt="Exotic Fruits"/></a>
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleCrossfade" data-mdb-slide="prev">
