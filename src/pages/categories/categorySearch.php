@@ -32,7 +32,7 @@
 
   <?php
     $category = $_GET['search'];
-    $title = "Mercadão da carne";
+    $title = "Mercadão barato";
     if (isset($category)) {
         $title .= " - " . $category;
     }

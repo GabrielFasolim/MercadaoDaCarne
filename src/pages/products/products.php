@@ -32,7 +32,7 @@
 
         <?php
             require_once './load.php';
-            $title = "Mercadão da carne";
+            $title = "Mercadão barato";
             if (isset($nome)) {
                 $title .= " - " . $nome;
             }

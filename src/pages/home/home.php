@@ -30,7 +30,7 @@
   <!-- FavIcon -->
   <link rel="shortcut icon" href="../../img/favicon.png" type="image/x-icon">
 
-  <title>Mercadão da carne - Home</title>
+  <title>Mercadão barato - Home</title>
 </head>
 
 <body>
