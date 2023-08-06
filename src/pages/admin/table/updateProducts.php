@@ -53,12 +53,12 @@
           </div>
 
           <div class="form-outline mb-4">
-            <textarea class="form-control" id="descricao" rows="6" name="descricao" value="<?php echo ($descricao);?>" required></textarea>
+            <textarea class="form-control" id="descricao" rows="6" name="descricao" required><?php echo ($descricao);?></textarea>
             <label class="form-label" for="descricao">Descrição</label>
           </div>
 
           <select id="categoria" class="form-select mb-4" aria-label="Default select example" name="categoria" required>
-            <option selected>Categoria do produto</option>
+            <option selected><?echo $tipo_nome;?></option>
             <?php require './loadCategory.php' ?>
           </select>
 
@@ -68,7 +68,7 @@
           </div>
 
           <label class="form-label" for="foto">Foto do produto</label>
-          <input type="file" class="form-control mb-4" id="foto" name="foto" required/>
+          <input type="file" class="form-control mb-4" id="foto" name="foto"/>
 
           <button value="<?php echo $id?>" id='update' type='submit' name='id' class="btn btn-danger btn-block mb-4">Editar</button>
         </form>
