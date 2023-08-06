@@ -38,8 +38,8 @@
       />
     </svg>
     <div class="categories-search">
-      <input type="text" placeholder="Procurar..." id="search">
-      <button class="btn-search" id="button">
+      <input type="text" placeholder="Procurar..." id="search-responsive">
+      <button class="btn-search" id="button-responsive">
         <i class="bi bi-search"></i>
       </button>
     </div>
