@@ -30,7 +30,7 @@
             <a href="#" class="text-dark">Quem somos?</a>
           </p>
           <p>
-            <a href="#" class="text-dark">Produtos</a>
+            <a href="http://localhost/Mercad%C3%A3o%20da%20carne/src/pages/categories/category.php?category=Tudo" class="text-dark">Produtos</a>
           </p>
         </div>
 
@@ -45,7 +45,7 @@
             <a target="_blank" href="" class="text-dark">Instagram</a>
           </p>
           <p>
-            <a target="_blank" href="" class="text-dark">Email</a>
+            <a target="_blank" href="" class="text-dark">E-mail</a>
           </p>
         </div>
       </div>

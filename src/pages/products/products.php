@@ -81,6 +81,7 @@
             </div>
             <div class="products container-md mt-3">
                 <p class="product-title">NOSSAS CARNES DE <span>AVES</span></p>
+            </div>
             <div class="products-content">
                 <?php require "../home/loadAves.php"?>
             </div>
@@ -88,7 +89,8 @@
             <div class="main-division">
             </div>
             <div class="products container-md mt-3">
-            <p class="product-title">NOSSAS CARNES <span>SUÍNAS</span></p>
+                <p class="product-title">NOSSAS CARNES <span>SUÍNAS</span></p>
+            </div>
             <div class="products-content">
                 <?php require "../home/loadSuinos.php"?>
             </div>
@@ -96,23 +98,25 @@
             <div class="main-division">
             </div>
             <div class="products container-md mt-3">
-            <p class="product-title">NOSSAS <span>LINGUIÇAS</span></p>
+                <p class="product-title">NOSSAS <span>LINGUIÇAS</span></p>
+            </div>
             <div class="products-content">
                 <?php require "../home/loadLinguicas.php"?>
             </div>
             <div class="btn-vermais"><a href="#" class="btn"><i class="fas fa-angles-right"></i> Ver mais</a></div>
-            <div class="main-division">
-            </div>
+            <div class="main-division"></div>
             <div class="products container-md mt-3">
-            <p class="product-title">NOSSOS <span>KITS</span></p>
-            <div class="products-content">
-                <?php require "../home/loadKits.php"?>
+                <p class="product-title">NOSSOS <span>KITS</span></p>
+                <div class="products-content">
+                    <?php require "../home/loadKits.php"?>
+                </div>
+                <div class="btn-vermais"><a href="#" class="btn"><i class="fas fa-angles-right"></i> Ver mais</a></div>
+                <div class="main-division"></div>
             </div>
-            <div class="btn-vermais"><a href="#" class="btn"><i class="fas fa-angles-right"></i> Ver mais</a></div>
-            <div class="main-division">
         </div>
-        
 
+        <? require_once "../../components/footer.php"; ?>
+        
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"></script>
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 

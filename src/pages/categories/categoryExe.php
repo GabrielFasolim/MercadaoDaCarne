@@ -54,7 +54,7 @@
           echo '</div>';
         }
       } else {
-        echo "<p class='null'>Não foi encontrado nenhum produto cadastrado!</p>";
+        echo "<p class='null marginNull'>Não foi encontrado nenhum produto cadastrado!</p>";
       }
     }
   }

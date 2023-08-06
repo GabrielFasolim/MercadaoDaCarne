@@ -770,6 +770,10 @@
   margin: auto 0;
 }
 
+.marginNull {
+  margin-bottom: 30%;
+}
+
 .category-and-name {
   display: flex;
   flex-direction: column;
