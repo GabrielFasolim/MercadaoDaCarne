@@ -27,9 +27,12 @@
     rel="stylesheet"
   />
 
+  <!-- FavIcon -->
+  <link rel="shortcut icon" href="../../img/favicon.png" type="image/x-icon">
+
   <?php
     $category = $_GET['category'];
-    $title = "Mercadão da carne";
+    $title = "Mercadão barato";
     if (isset($category)) {
         $title .= " - " . $category;
     }

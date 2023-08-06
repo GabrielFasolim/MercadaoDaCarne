@@ -8,10 +8,9 @@
 }
 
 .main-carousel {
-  min-height: 384px;
-  width: 100%;
-  background: url(../img/carrossel\ 1.png) center / contain no-repeat;
-  border-radius: 10px;
+  img {
+    border-radius: 10px;
+  }
 }
 
 .main-infos {
@@ -22,6 +21,11 @@
     display: flex;
     align-items: center;
     gap: 10px;
+    &:nth-child(2) {
+      i {
+        color: green;
+      }
+    }
     i {
       font-size: 40px;
       color: $lightRed;
@@ -52,20 +56,33 @@
   justify-content: center;
   .advert {
     width: 49%;
-    min-height: 100px;
-    background-color: blue;
-    border-radius: 10px;
-    &:nth-child(1) {
-      background: url("../img/anuncio\ 1.png") center / contain no-repeat;
+    img {
+      border-radius: 10px;
+      width: 100%;
     }
-    &:nth-child(2) {
-      background: url("../img/anuncio\ 2.png") center / contain no-repeat;
-    }
-    &:nth-child(3) {
-      background: url("../img/anuncio\ 3.png") center / contain no-repeat;
-    }
-    &:nth-child(4) {
-      background: url("../img/anuncio\ 4.png") center / contain no-repeat;
+  }
+}
+
+.whatsapp-link {
+  margin: 30px;
+  background-color: green;
+  right: 0;
+  bottom: 0;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  a {
+    color: white;
+    font-size: 30px;
+
+    &:hover {
+      color: white;
     }
   }
 }
@@ -73,10 +90,6 @@
 @media (max-width: 992px) {
   .main-head {
     height: auto;
-  }
-  .main-carousel {
-    min-height: 200px;
-    background-size: contain;
   }
   .main-infos {
     flex-wrap: wrap;
@@ -123,9 +136,5 @@
 
   .main-infos .info p {
     font-size: 0.4.5rem;
-  }
-
-  .main-adverts .advert {
-    height: 60px;
   }
 }
