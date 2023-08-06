@@ -10,6 +10,9 @@
           INNER JOIN tipo t ON c.tipo_id = t.id";
 
     if($result = mysqli_query($conn, $sql)) {
+      echo '<div class="category-description">';
+        echo '<p>nossos produtos</p>';
+      echo '</div>';
       if(mysqli_num_rows($result) > 0) {
         while($row = mysqli_fetch_assoc($result)) {
           echo '<div class="product">';
@@ -37,6 +40,9 @@
           WHERE t.nome LIKE '%$category%'";
     
     if($result = mysqli_query($conn, $sql)) {
+      echo '<div class="category-description">';
+        echo "<p><a href='http://localhost/Mercad%C3%A3o%20da%20carne/src/pages/categories/category.php?category=Tudo'>produtos ></a> $category</p>";
+      echo '</div>';
       if(mysqli_num_rows($result) > 0) {
         while($row = mysqli_fetch_assoc($result)) {
           echo '<div class="product">';

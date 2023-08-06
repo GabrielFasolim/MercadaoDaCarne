@@ -717,7 +717,7 @@
   height: auto;
   width: 100%;
   display: flex;
-  gap: 40px;
+  gap: 30px 40px;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
@@ -834,6 +834,28 @@
   font-weight: bold;
   border-radius: 30px;
   margin-bottom: 30px;
+}
+
+.category-description {
+  display: flex;
+  background-color: #de3b3c;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+.category-description p {
+  margin: 10px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.category-description a {
+  color: white;
+}
+.category-description a:hover {
+  color: black;
 }
 
 @media (max-width: 768px) {
