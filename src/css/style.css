@@ -345,6 +345,32 @@
     color: #c00000;
   }
 }
+.container__foter .footer__section {
+  background-color: #de3b3c;
+}
+.container__foter .footer__section i {
+  font-size: 30px;
+}
+.container__foter hr {
+  width: 60px;
+  background-color: #ff4d4d;
+  height: 2px;
+}
+.container__foter .link {
+  color: white;
+  transition: 0.2s;
+}
+.container__foter .link:hover {
+  color: black;
+}
+.container__foter .copy {
+  color: white;
+  background-color: #de3b3c;
+}
+.container__foter .copy a {
+  color: white;
+}
+
 * {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
