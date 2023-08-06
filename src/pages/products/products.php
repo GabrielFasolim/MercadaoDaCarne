@@ -47,16 +47,24 @@
         <div class="box">
             <div class="imgs">
                 <div class="imgMain">
-                <img src="data:image/jpeg;base64,<?php echo $imagem; ?>" alt="" class="profile__pic img_fluid" id='imgProduto'/>
+                    <img src="data:image/jpeg;base64,<?php echo $imagem; ?>" alt="" class="profile__pic img_fluid" id='imgProduto'/>
                 </div>
             </div>
             <div class="info">
                 <h2 id="titulo"><?php echo ($nome);?></h2>
-                <p>PREÇO POR KG</p>
-                <h4 id="preco">R$ <?php echo ($preco);?></h4>
+                <div class="price">
+                    <p>PREÇO POR KG</p>
+                    <h4 id="preco">R$ <?php echo ($preco);?></h4>
+                </div>
                 <button class="button-24" role="button">COMPRAR PELO WHATSAPP</button>
                 <p class="pix"><i class="fab fa-pix"></i> Pagamento por <span>PIX</span></p>
-                <h7><i class="fas fa-truck-fast"></i>Entrega Agendada</h7>
+                <div class="entrega-agendada">
+                    <i class="fas fa-truck-fast"></i>
+                    <div>
+                        <h3>Entrega Agendada</h3>
+                        <p>Escolha o horário e faça seu pedido</p>
+                    </div>
+                </div>
                 <div class="description">
                     <h5>Descrição</h5>
                     <p><?php echo ($descricao);?></p>
