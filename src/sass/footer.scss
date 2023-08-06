@@ -1,0 +1,32 @@
+.container__foter {
+  .footer__section {
+    background-color: $lightRed;
+
+    i {
+      font-size: 30px;
+    }
+  }
+
+  hr {
+    width: 60px;
+    background-color: #ff4d4d;
+    height: 2px;
+  }
+
+  .link {
+    color: white;
+    transition: 0.2s;
+    &:hover {
+      color: black;
+    }
+  }
+
+  .copy {
+    color: white;
+    background-color: $lightRed;
+
+    a {
+      color: white;
+    }
+  }
+}
