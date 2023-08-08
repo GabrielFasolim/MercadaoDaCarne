@@ -86,7 +86,7 @@
 </header>
 
 <div class="whatsapp-link">
-  <a href=""><i class="fab fa-whatsapp"></i></a>
+  <a href="https://web.whatsapp.com/send?phone=5553997012171"><i class="fab fa-whatsapp"></i></a>
 </div>
 
 <script src="../../utils/navbar.js"></script>
