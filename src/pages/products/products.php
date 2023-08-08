@@ -56,7 +56,7 @@
                     <p>PREÇO POR KG</p>
                     <h4 id="preco">R$ <?php echo ($preco);?></h4>
                 </div>
-                <a href="https://web.whatsapp.com/send?phone=5553997012171"><button class="button-24" role="button"> COMPRAR PELO WHATSAPP</button></a>
+                <a target="blank" href="https://web.whatsapp.com/send?phone=5553997012171"><button class="button-24" role="button"> COMPRAR PELO WHATSAPP</button></a>
                 <p class="pix"><i class="fab fa-pix"></i> Pagamento por <span>PIX</span></p>
                 <div class="entrega-agendada">
                     <i class="fas fa-truck-fast"></i>
